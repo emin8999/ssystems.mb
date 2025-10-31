@@ -4,7 +4,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import TextField from "@mui/material/TextField";
-
+import Header from '../../components/Header'
 const Index = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -38,6 +38,8 @@ const Index = () => {
   };
 
   return (
+    <>
+    <Header/>
     <div className="flex flex-col lg:flex-row lg:ml-[10%] mt-[2%] lg:gap-[4%] px-4 pb-[5%]">
       {/* Xəritə */}
       <div className="w-full lg:w-[40%] lg:h-auto mb-8 lg:mb-0">
@@ -144,6 +146,7 @@ const Index = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 
