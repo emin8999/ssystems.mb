@@ -1,0 +1,61 @@
+.feedback-card {
+    width: 544px;
+    height: 254px;
+    border-radius: 20px;
+    border: 1px solid var(--green);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feedback-profile {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.feedback-profile-picture {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.feedback-profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.feedback-profile-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--black);
+}
+
+.feedback-profile-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--gray);
+}
+
+.feedback-review-container {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.feedback-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--gray);
+}

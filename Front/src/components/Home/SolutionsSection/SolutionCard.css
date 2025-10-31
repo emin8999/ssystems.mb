@@ -1,0 +1,42 @@
+.solution-card {
+    width: 352px;
+    height: 286px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid var(--green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.solution-icon-container {
+    height: 62px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--light-gray);
+    align-self: flex-start;
+}
+
+.solution-content {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    overflow: hidden;
+}
+
+.solution-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--black);
+}
+
+.solution-card-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--gray);
+}

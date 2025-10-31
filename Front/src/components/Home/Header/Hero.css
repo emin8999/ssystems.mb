@@ -1,0 +1,229 @@
+.hero-section {
+    width: 100%;
+    padding: 60px 120px 60px 160px;
+    background-color: var(--dark-green);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.hero-left-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-left-title {
+    font-weight: 500;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.hero-left-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.hero-left-btn-container {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-left-btn {
+    padding: 10px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero-left-btn1 {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.hero-left-btn2 {
+    background-color: transparent;
+    color: var(--green);
+    border: 1px solid;
+}
+
+.hero-right {
+    position: relative;
+    width: 548px;
+    height: 571px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-card {
+    width: 241px;
+    height: 145px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 24px 24px 64px 0 rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    bottom: 80px;
+    left: -40px;
+    z-index: 10;
+}
+
+.card-img-container {
+    display: flex;
+}
+
+.card-img-container img,
+.card-img-container div {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+
+.card-img-container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--light-gray);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 0 0 5px 2px;
+}
+
+.card-img-container img:not(:first-of-type),
+.card-img-container div {
+    margin-left: -20px;
+}
+
+.rating-card-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.card-ratings-container {
+    display: flex;
+    align-items: center;
+    gap: 13px
+}
+
+.card-ratings-container img {
+    height: 26px;
+    width: 26px;
+}
+
+.card-ratings-container p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.award-card {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.48);
+    box-shadow: 21.69px 21.69px 57.83px 0 rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(45.18px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 25px;
+    position: absolute;
+    top: -10px;
+    left: 320px;
+    z-index: 10;
+}
+
+.icon-container {
+    background-color: var(--green);
+    width: 43px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.award-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.award-card-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.award-card-status {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--white);
+}
+
+.green-box {
+    width: 273px;
+    height: 440px;
+    background-color: var(--green);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 5;
+}
+
+.green-box img {
+    width: 184px;
+    height: 382px; 
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
+
+.gray-box {
+    width: 284px;
+    height: 364px;
+    background-color: var(--light-gray);
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    border-radius: 20px;
+}
