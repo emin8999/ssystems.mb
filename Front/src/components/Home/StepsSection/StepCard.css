@@ -1,0 +1,59 @@
+.step-card {
+    width: 335px;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.step-card-header {
+    width: 192px;
+    height: 171px;
+    background: url('../public/icons/ellipse.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-card-img-container {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: var(--light-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-card-img-container img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border: none;
+}
+
+.step-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.step-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: var(--black);
+}
+
+.step-card-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--gray);
+}

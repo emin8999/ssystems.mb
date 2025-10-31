@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Map from "../Map";
+import Map from "../../components/Map/index.jsx";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";

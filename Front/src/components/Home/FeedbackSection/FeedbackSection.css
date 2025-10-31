@@ -1,0 +1,35 @@
+.feedback-section {
+    max-width: 1120px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.feedback-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.feedback-header-title {
+    color: var(--black);
+}
+
+.feedback-header-description {
+    width: 513px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: var(--gray);
+    text-align: center;
+}
+
+.feedback-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
