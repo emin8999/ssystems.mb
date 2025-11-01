@@ -77,73 +77,74 @@ const Index = () => {
           </div>
         </div>
 
-        <form className="pt-5 flex flex-col gap-10" onSubmit={handleSubmit}>
-          <TextField
-            name="email"
-            label="Enter Your mail"
-            variant="outlined"
-            value={formData.email}
-            onChange={HandleChange}
-            sx={{
-              width: 544,
-              borderRadius: 2.5,
-              "& .MuiOutlinedInput-root": {
-                borderRadius: 2.5,
-                "& fieldset": { borderColor: "#0ED789", borderWidth: 1 },
-                "&:hover fieldset": { borderColor: "#0ED789" },
-                "&.Mui-focused fieldset": { borderColor: "#0ED789" },
-              },
-              "& label.Mui-focused": { color: "#0ED789" },
-              opacity: 1,
-            }}
-          />
-          <TextField
-            name="name"
-            label="Enter Your name"
-            variant="outlined"
-            value={formData.name}
-            onChange={HandleChange}
-            sx={{
-              width: 544,
-              borderRadius: 2.5,
-              "& .MuiOutlinedInput-root": {
-                borderRadius: 2.5,
-                "& fieldset": { borderColor: "#0ED789", borderWidth: 1 },
-                "&:hover fieldset": { borderColor: "#0ED789" },
-                "&.Mui-focused fieldset": { borderColor: "#0ED789" },
-              },
-              "& label.Mui-focused": { color: "#0ED789" },
-              opacity: 1,
-            }}
-          />
-          <TextField
-            name="message"
-            label="Enter Your message"
-            variant="outlined"
-            multiline
-            rows={4}
-            value={formData.message}
-            onChange={HandleChange}
-            sx={{
-              width: 544,
-              borderRadius: 2.5,
-              "& .MuiOutlinedInput-root": {
-                borderRadius: 2.5,
-                "& fieldset": { borderColor: "#0ED789", borderWidth: 1 },
-                "&:hover fieldset": { borderColor: "#0ED789" },
-                "&.Mui-focused fieldset": { borderColor: "#0ED789" },
-              },
-              "& label.Mui-focused": { color: "#0ED789" },
-              opacity: 1,
-            }}
-          />
-          <button
-            type="submit"
-            className="bg-[#0ED789] text-white w-[161px] h-[44px] rounded-[10px] flex items-center justify-center gap-[10px]"
-          >
-            Send Messages
-          </button>
-        </form>
+        <form className="pt-5 flex flex-col gap-6 sm:gap-4" onSubmit={handleSubmit}>
+  <TextField
+    name="email"
+    label="Enter Your mail"
+    variant="outlined"
+    value={formData.email}
+    onChange={HandleChange}
+    sx={{
+      width: '100%',
+      maxWidth: 544,
+      borderRadius: 2.5,
+      "& .MuiOutlinedInput-root": {
+        borderRadius: 2.5,
+        "& fieldset": { borderColor: "#0ED789", borderWidth: 1 },
+        "&:hover fieldset": { borderColor: "#0ED789" },
+        "&.Mui-focused fieldset": { borderColor: "#0ED789" },
+      },
+      "& label.Mui-focused": { color: "#0ED789" },
+    }}
+  />
+  <TextField
+    name="name"
+    label="Enter Your name"
+    variant="outlined"
+    value={formData.name}
+    onChange={HandleChange}
+    sx={{
+      width: '100%',
+      maxWidth: 544,
+      borderRadius: 2.5,
+      "& .MuiOutlinedInput-root": {
+        borderRadius: 2.5,
+        "& fieldset": { borderColor: "#0ED789", borderWidth: 1 },
+        "&:hover fieldset": { borderColor: "#0ED789" },
+        "&.Mui-focused fieldset": { borderColor: "#0ED789" },
+      },
+      "& label.Mui-focused": { color: "#0ED789" },
+    }}
+  />
+  <TextField
+    name="message"
+    label="Enter Your message"
+    variant="outlined"
+    multiline
+    rows={4}
+    value={formData.message}
+    onChange={HandleChange}
+    sx={{
+      width: '100%',
+      maxWidth: 544,
+      borderRadius: 2.5,
+      "& .MuiOutlinedInput-root": {
+        borderRadius: 2.5,
+        "& fieldset": { borderColor: "#0ED789", borderWidth: 1 },
+        "&:hover fieldset": { borderColor: "#0ED789" },
+        "&.Mui-focused fieldset": { borderColor: "#0ED789" },
+      },
+      "& label.Mui-focused": { color: "#0ED789" },
+    }}
+  />
+  <button
+    type="submit"
+    className="bg-[#0ED789] text-white w-[161px] h-[44px] rounded-[10px] flex items-center justify-center gap-[10px] mt-4 self-start sm:self-center"
+  >
+    Send Messages
+  </button>
+</form>
+
       </div>
     </div>
     </>

@@ -1,4 +1,5 @@
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import Vector from "../../icon/Vector.svg";
 
 const Footer = () => {
   return (
@@ -8,7 +9,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg[#054E32] items-center justify-center">
-                <img src="public/Vector.png" className=" h-6 text-[#054E32]">
+                <img src={Vector} className=" h-9 text-[#054E32]">
                 </img>
               </div>
               <span className="text-xl font-bold">SSYSTEMS MB</span>
@@ -50,7 +51,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#"
+                  href="/aboutUs"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   About
@@ -58,7 +59,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/services"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Services
@@ -66,7 +67,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/contacts"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Contact Us

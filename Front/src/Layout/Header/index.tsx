@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { FiPhone } from "react-icons/fi";
-
+import Vector from "../../icon/Vector.svg";
 const Header = () => {
   return (
     <header className="w-full bg-[#054E32] text-white shadow-sm">
       <div className="max-w-[1240px] mx-auto flex justify-between items-center h-[70px] md:px-12">
         <div className="flex items-center gap-2">
-          <img src="/public/Vector.png" alt="logo" className="w-8 h-8" />
+          <img src={Vector} alt="logo" className="w-8 h-8" />
           <span className="font-semibold text-lg tracking-wide">
             SSYSTEMS MB
           </span>
