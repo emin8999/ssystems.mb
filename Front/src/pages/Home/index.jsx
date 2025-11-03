@@ -292,6 +292,7 @@ function index() {
           </div>
         </div>
       </section>
+      {/* {""} */}
 
       <section
         className="
