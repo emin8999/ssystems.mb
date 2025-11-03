@@ -3,7 +3,7 @@ import SolutionImgFirst from "../../img/Solutionimg1.svg";
 import TemirIcon from "../../icon/Temir.svg";
 import CantaIcon from "../../icon/Canta.svg";
 import elektirikIcon from "../../icon/elektirik.svg";
-import gemiIcon from "../../icon/gemi.svg";
+import gemiIcon from "../../icon/Gemi.svg";
 import TemizIcon from "../../icon/Temiz.svg";
 import Button from "../../components/button/button";
 import Frame1 from "../../img/Frame 1.svg";
