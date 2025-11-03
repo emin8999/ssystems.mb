@@ -27,7 +27,7 @@ const OurServices = () => {
                     
                     <div className="flex flex-col sm:flex-row gap-4 lg:gap-[16px] mt-4 lg:mt-8 justify-center lg:justify-start">
                         <Link 
-                            to="/contact" 
+                            to="/contacts" 
                             className="py-2 px-6 lg:py-[12px] lg:px-[24px] bg-[#FFFFFF] rounded-lg lg:rounded-[10px] text-[#0ED789] cursor-pointer font-semibold hover:bg-[#f0f0f0] transition-colors text-sm lg:text-base whitespace-nowrap text-center"
                         >
                             Contact Us

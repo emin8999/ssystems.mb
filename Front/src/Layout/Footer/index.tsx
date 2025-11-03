@@ -103,15 +103,20 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-300">
                 <Phone className="w-5 h-5 shrink-0" />
-                <span>(907) 555-0101</span>
+                <span>
+                  <a href="tel: +37065963444">+37065963444</a>
+                </span>
               </li>
               <li className="flex items-center gap-2 text-gray-300">
                 <Mail className="w-5 h-5 shrink-0" />
-                <span>nvt.isst.nute@gmail.com</span>
+                <span><a href="mailto:Sss.santechnika@gmail.com">Sss.santechnika@gmail.com</a></span>
+
               </li>
               <li className="flex items-start gap-2 text-gray-300">
-                <MapPin className="w-5 h-5 shrink-0 mt-1" />
+                <a href="/contacts" className="flex items-start gap-2">
+                  <MapPin className="w-5 h-5 shrink-0 mt-1" />
                 <span>Litva Klaipeda Artojo g 7 E</span>
+                </a>
               </li>
             </ul>
           </div>

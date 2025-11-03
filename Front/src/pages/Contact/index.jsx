@@ -58,13 +58,13 @@ const Index = () => {
             <div className="flex items-center gap-2">
               <BsFillTelephoneFill style={{ color: "#0ED789" }} />
               <span className="font-inter font-thin text-base text-custom-gray">
-                (907) 555-0101
+               <a href="tel: +37065963444">+37065963444</a>
               </span>
             </div>
             <div className="flex items-center gap-2">
               <FaEnvelope style={{ color: "#0ED789" }} />
               <span className="font-inter font-thin text-base text-custom-gray">
-                nvt.isst.nute@gmail.com
+               <a href="mailto:  Sss.santechnika@gmail.com"> Sss.santechnika@gmail.com</a>
               </span>
             </div>
             <div className="flex items-center gap-2">

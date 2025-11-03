@@ -47,7 +47,7 @@ const Header = () => {
           {/* Telefon */}
           <a href="tel:8075550101" className="hidden sm:flex items-center gap-2">
             <FiPhone className="text-xl" aria-label="Phone" />
-            <span>(807) 555-0101</span>
+            <span><a href="tel: +37065963444">+37065963444</a></span>
           </a>
 
           {/* Language Dropdown */}

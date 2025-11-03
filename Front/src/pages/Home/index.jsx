@@ -86,11 +86,12 @@ function index() {
           </p>
 
           <div className="flex justify-center sm:justify-start gap-4">
-            <button className="bg-[#0ED789] w-[118px] h-[44px] rounded-xl">
+            <button className="bg-[#0ED789] w-[118px] h-[44px] rounded-xl text-white font-medium transition-all duration-300 hover:bg-[#0ACF83] hover:scale-105">
               Trying Now
             </button>
-            <button className="bg-transparent border border-[#0ED789] text-[#0ACF83] w-[118px] h-[44px] rounded-xl">
-              Learn More
+
+            <button className="bg-transparent border border-[#0ED789] text-[#0ACF83] w-[118px] h-[44px] rounded-xl font-medium transition-all duration-300 hover:bg-[#0ED789] hover:text-white hover:scale-105">
+              <a href="/services">Learn More</a>
             </button>
           </div>
         </div>
@@ -109,57 +110,59 @@ function index() {
         </div>
       </section>
 
-<section className="Extensive">
-  <div className="ExtensiveText flex justify-center flex-col items-center text-center mb-10 px-4 mt-[100px]">
-    <h1
-      style={{ fontStyle: "Medium" }}
-      className="text-[64px] font-[500] sm:text-[32px] md:text-[64px] leading-tight"
-    >
-      Extensive Repair Solutions
-    </h1>
-    <p className="text-[16px] font-[400] text-[#00000080] sm:text-[14px]">
-      From routine maintenance to emergency repairs, our licensed plumbers{" "}
-      <br /> are equipped to handle any job with efficiency and precision.
-    </p>
-  </div>
-
-  {/* Cards */}
-  <div
-    className="ExtensiveCard 
-      px-[20px] md:px-[80px] lg:px-[200px] 
-      flex flex-wrap justify-center gap-[20px] md:gap-[25px] lg:gap-[30px] mb-10
-    "
-  >
-    {cardsData.map((card) => (
-      <div
-        key={card.id}
-        style={{ border: "1px solid #0ED789" }}
-        className="
-          card 
-          w-full sm:w-[300px] md:w-[320px] lg:w-[352px] 
-          p-[16px] md:p-[18px] lg:p-[20px] 
-          rounded-3xl  
-        "
-      >
-        <div className="w-full md:w-[280px] lg:w-[292px] mx-auto">
-          <img src={card.img} alt={card.title} className="mx-auto" />
-          <h1 className="text-[18px] md:text-[19px] lg:text-[20px] mt-5 font-[500]">
-            {card.title}
+      <section className="Extensive">
+        <div className="ExtensiveText flex justify-center flex-col items-center text-center mb-10 px-4 mt-[100px]">
+          <h1
+            style={{ fontStyle: "Medium" }}
+            className="text-[64px] font-[500] sm:text-[32px] md:text-[64px] leading-tight"
+          >
+            Extensive Repair Solutions
           </h1>
-          <p className="text-[15px] md:text-[16px] font-[400] mt-4 text-[#00000080]">
-            {card.text}
+          <p className="text-[16px] font-[400] text-[#00000080] sm:text-[14px]">
+            From routine maintenance to emergency repairs, our licensed plumbers{" "}
+            <br /> are equipped to handle any job with efficiency and precision.
           </p>
         </div>
-      </div>
-    ))}
-  </div>
 
-  {/* Button - cards-dan ayrı */}
-  <div className="flex justify-center mb-16 px-4">
-    <Button />
-  </div>
-</section>
+        {/* Cards */}
+        <div
+          className="ExtensiveCard 
+  px-[20px] md:px-[80px] lg:px-[200px] 
+  flex flex-wrap justify-center gap-[20px] md:gap-[25px] lg:gap-[30px] mb-10
+"
+        >
+          {cardsData.map((card) => (
+            <div
+              key={card.id}
+              style={{ border: "1px solid #0ED789" }}
+              className="
+        card 
+        w-full sm:w-[300px] md:w-[320px] lg:w-[352px] 
+        p-[16px] md:p-[18px] lg:p-[20px] 
+        rounded-3xl  
+        bg-white
+        transition-all duration-300 ease-in-out
+        hover:-translate-y-2 hover:shadow-lg hover:shadow-[#0ED789]/40 hover:border-[#0ACF83]
+      "
+            >
+              <div className="w-full md:w-[280px] lg:w-[292px] mx-auto text-center">
+                <img src={card.img} alt={card.title} className="mx-auto" />
+                <h1 className="text-[18px] md:text-[19px] lg:text-[20px] mt-5 font-[500]">
+                  {card.title}
+                </h1>
+                <p className="text-[15px] md:text-[16px] font-[400] mt-4 text-[#00000080]">
+                  {card.text}
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
 
+        {/* Button - cards-dan ayrı */}
+        <div className="flex justify-center mb-16 px-4">
+          <Button />
+        </div>
+      </section>
 
       <section
         className="
@@ -453,11 +456,18 @@ function index() {
               with all your repairing needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-12">
-              <button className="bg-white text-green-400 px-4 py-2 rounded-lg font-medium hover:bg-gray-100 transition">
+              {/* Contact Us button */}
+              <button className="bg-white text-green-500 px-4 py-2 rounded-lg font-medium shadow-sm transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-md">
+                <a href="/contacts">
                 Contact Us
+                </a>
               </button>
-              <button className="border border-white px-4 py-2 rounded-lg font-medium hover:bg-white hover:text-green-400 transition">
+
+              {/* Learn More button */}
+              <button className="border border-white text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-white hover:text-green-500 hover:scale-105 hover:shadow-md">
+                <a href="/services">
                 Learn More
+                </a>
               </button>
             </div>
           </div>
