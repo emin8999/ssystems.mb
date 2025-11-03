@@ -1,42 +1,45 @@
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
+import { Link } from "react-router-dom";
 import Vector from "../../icon/Vector.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#054E32] text-white py-12 px-4">
+    <footer className="bg-[#054E32] text-white py-8 sm:py-12 px-4 sm:px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
-          <div className="md:col-span-1">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
+          <div className="sm:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg[#054E32] items-center justify-center">
-                <img src={Vector} className=" h-9 text-[#054E32]">
-                </img>
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img src={Vector} alt="SSYSTEMS MB Logo" className="h-9" />
               </div>
-              <span className="text-xl font-bold">SSYSTEMS MB</span>
+              <span className="text-lg sm:text-xl font-bold">SSYSTEMS MB</span>
             </div>
-            <p className="text-sm text-gray-300 mb-6">
+            <p className="text-xs sm:text-sm text-gray-300 mb-4 sm:mb-6 leading-relaxed">
               From worn joints to complete rebuilds, our skilled welders provide
               lasting results with professional care.
             </p>
-            <div className="flex gap-3">
+            <div className="flex gap-2 sm:gap-3">
               <a
                 href="#"
-                className="w-10 h-10 border border-gray-400 rounded-full flex items-center justify-center hover:bg-white hover:text-[#0D5C4B] transition-colors"
+                className="w-8 h-8 sm:w-10 sm:h-10 border border-gray-400 rounded-full flex items-center justify-center hover:bg-white hover:text-[#0D5C4B] transition-colors"
+                aria-label="Facebook"
               >
-                <Facebook className="w-5 h-5" />
+                <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 border border-gray-400 rounded-full flex items-center justify-center hover:bg-white hover:text-[#0D5C4B] transition-colors"
+                className="w-8 h-8 sm:w-10 sm:h-10 border border-gray-400 rounded-full flex items-center justify-center hover:bg-white hover:text-[#0D5C4B] transition-colors"
+                aria-label="Instagram"
               >
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
                 href="#"
-                className="w-10 h-10 border border-gray-400 rounded-full flex items-center justify-center hover:bg-white hover:text-[#0D5C4B] transition-colors"
+                className="w-8 h-8 sm:w-10 sm:h-10 border border-gray-400 rounded-full flex items-center justify-center hover:bg-white hover:text-[#0D5C4B] transition-colors"
+                aria-label="Twitter"
               >
                 <svg
-                  className="w-5 h-5"
+                  className="w-4 h-4 sm:w-5 sm:h-5"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >
@@ -47,83 +50,88 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4">My Company</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">My Company</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="/aboutUs"
-                  className="text-gray-300 hover:text-white transition-colors"
+                <Link
+                  to="/aboutUs"
+                  className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/services"
-                  className="text-gray-300 hover:text-white transition-colors"
+                <Link
+                  to="/services"
+                  className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/contacts"
-                  className="text-gray-300 hover:text-white transition-colors"
+                <Link
+                  to="/contacts"
+                  className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
                   Contact Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-bold mb-4">Our Resource</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Our Resource</h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                <Link
+                  to="/career"
+                  className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
                   Career
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                <Link
+                  to="/blog"
+                  className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
                   Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div>
-            <h3 className="text-lg font-bold mb-4">Contact Us</h3>
+          <div className="sm:col-span-2 lg:col-span-1">
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Contact Us</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-300">
-                <Phone className="w-5 h-5 shrink-0" />
-                <span>
-                  <a href="tel: +37065963444">+37065963444</a>
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+                <span className="text-xs sm:text-sm">
+                  <a href="tel:+37065963444" className="hover:text-white transition-colors">
+                    +370 659 63444
+                  </a>
                 </span>
               </li>
               <li className="flex items-center gap-2 text-gray-300">
-                <Mail className="w-5 h-5 shrink-0" />
-                <span><a href="mailto:Sss.santechnika@gmail.com">Sss.santechnika@gmail.com</a></span>
-
+                <Mail className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+                <span className="text-xs sm:text-sm">
+                  <a href="mailto:Sss.santechnika@gmail.com" className="hover:text-white transition-colors break-all">
+                    Sss.santechnika@gmail.com
+                  </a>
+                </span>
               </li>
               <li className="flex items-start gap-2 text-gray-300">
-                <a href="/contacts" className="flex items-start gap-2">
-                  <MapPin className="w-5 h-5 shrink-0 mt-1" />
-                <span>Litva Klaipeda Artojo g 7 E</span>
-                </a>
+                <Link to="/contact" className="flex items-start gap-2 hover:text-white transition-colors">
+                  <MapPin className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 mt-0.5" />
+                  <span className="text-xs sm:text-sm">Litva Klaipeda Artojo g 7 E</span>
+                </Link>
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-gray-600 pt-6">
-          <p className="text-center text-sm text-gray-400">
+        <div className="border-t border-gray-600 pt-4 sm:pt-6">
+          <p className="text-center text-xs sm:text-sm text-gray-400">
             © 2025 SSYSTEMS MB. All rights reserved.
           </p>
         </div>
