@@ -6,6 +6,7 @@ import Services from "./pages/Services/Service.jsx";
 import AboutUs from "./pages/AboutUs/index.jsx"
 import Home from "./pages/Home/index.jsx"
 import Career from "./pages/Career/index.jsx"
+import Blog from './pages/Blog'
 if (typeof window !== "undefined" && !window.process) {
   window.process = { env: { NODE_ENV: "development" } };
 }
@@ -19,6 +20,7 @@ function App() {
         <Route path="contacts" element={<Contacts />} />
         <Route path="aboutUs" element={<AboutUs />} />
         <Route path="career" element={<Career />} />
+        <Route path="blog" element={<Blog />} />
       </Route>
     </Routes>
   );
