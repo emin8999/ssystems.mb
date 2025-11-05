@@ -31,7 +31,7 @@ const BlogPage = () => {
         },
         {
           id: 4,
-          title: "Revolutionizing Construction Through Technology",
+          title: "Revolutionizing Construction Through Technologyyy",
           description:
             "Learn how automation and smart tools are transforming the construction industry.",
           date: "28 Avqust 2025",
