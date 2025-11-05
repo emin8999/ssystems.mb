@@ -16,6 +16,7 @@ import Expert3 from "../../img/Expert3.svg";
 import Start from "../../icon/star.svg";
 import Marvin from "../../img/Martvin.jpg";
 import SonImg from "../../img/Son.svg";
+import { Link } from "react-router-dom";
 function index() {
   const cardsData = [
     {
@@ -89,10 +90,12 @@ function index() {
             <button className="bg-[#0ED789] w-[118px] h-[44px] rounded-xl text-white font-medium transition-all duration-300 hover:bg-[#0ACF83] hover:scale-105">
               Trying Now
             </button>
-
-            <button className="bg-transparent border border-[#0ED789] text-[#0ACF83] w-[118px] h-[44px] rounded-xl font-medium transition-all duration-300 hover:bg-[#0ED789] hover:text-white hover:scale-105">
-              <a href="/services">Learn More</a>
-            </button>
+            <Link
+              to="/services"
+              className="bg-transparent border border-[#0ED789] text-[#0ACF83] w-[118px] h-[44px] rounded-xl font-medium transition-all duration-300 hover:bg-[#0ED789] hover:text-white hover:scale-105 inline-flex items-center justify-center"
+            >
+              Learn More
+            </Link>
           </div>
         </div>
 
@@ -459,16 +462,12 @@ function index() {
             <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-12">
               {/* Contact Us button */}
               <button className="bg-white text-green-500 px-4 py-2 rounded-lg font-medium shadow-sm transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-md">
-                <a href="/contacts">
-                Contact Us
-                </a>
+                <a href="/contacts">Contact Us</a>
               </button>
 
               {/* Learn More button */}
               <button className="border border-white text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-white hover:text-green-500 hover:scale-105 hover:shadow-md">
-                <a href="/services">
-                Learn More
-                </a>
+                <a href="/services">Learn More</a>
               </button>
             </div>
           </div>
