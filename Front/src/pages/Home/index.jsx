@@ -19,9 +19,8 @@ import SonImg from "../../img/Son.svg";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 function index() {
-
   const { t } = useTranslation();
-  
+
   const cardsData = [
     {
       id: 1,
@@ -87,16 +86,16 @@ function index() {
             {t("HomePage.Solutions.welcome")}
           </p>
 
-          <div className="flex justify-center sm:justify-start gap-4">
-            <button className="bg-[#0ED789] w-[118px] h-[44px] rounded-xl text-white font-medium transition-all duration-300 hover:bg-[#0ACF83] hover:scale-105">
-              {t('HomePage.Solutions.tryingNow')}
-            </button>
-            <Link
-              to="/services"
-              className="bg-transparent border border-[#0ED789] text-[#0ACF83] w-[118px] h-[44px] rounded-xl font-medium transition-all duration-300 hover:bg-[#0ED789] hover:text-white hover:scale-105 inline-flex items-center justify-center"
-            >
-              {t('HomePage.Solutions.learnMore')}
-            </Link>
+          <div className="flex justify-center  sm:justify-start gap-4">
+              <button className="bg-[#0ED789] w-[118px] h-[44px] rounded-xl text-white font-medium transition-all duration-300 hover:bg-[#0ACF83] hover:scale-105">
+                {t("HomePage.Solutions.tryingNow")}
+              </button>
+              <Link
+                to="/services"
+                className="bg-transparent border   border-[#0ED789] text-[#0ACF83] w-[118px] h-[44px] rounded-xl font-medium transition-all duration-300 hover:bg-[#0ED789] hover:text-white hover:scale-105 inline-flex items-center justify-center"
+              >
+                {t("HomePage.Solutions.learnMore")}
+              </Link>
           </div>
         </div>
 
@@ -215,8 +214,7 @@ function index() {
             {t("HomePage.Book.title")}
           </h1>
           <p className="text-[15px] md:text-[16px] text-[#808080] font-[400] mt-4 text-center">
-            {t("HomePage.Book.easySteps1")}{" "}
-            <br className="hidden md:block" />
+            {t("HomePage.Book.easySteps1")} <br className="hidden md:block" />
             {t("HomePage.Book.easySteps2")}
           </p>
         </div>
@@ -310,7 +308,8 @@ function index() {
     "
         >
           <h1 className="text-[32px] md:text-[48px] lg:text-[64px] font-semibold leading-tight mb-5">
-            {t("HomePage.Expert.title1")} <br className="hidden md:block" /> {t("HomePage.Expert.title2")}
+            {t("HomePage.Expert.title1")} <br className="hidden md:block" />{" "}
+            {t("HomePage.Expert.title2")}
           </h1>
           <p className="text-[15px] md:text-[16px] text-[#808080] md:w-[450px] lg:w-[500px]">
             {t("HomePage.Expert.eachMember")}
@@ -438,7 +437,8 @@ function index() {
 
           <div className="w-full md:w-1/2 text-white">
             <h1 className="text-2xl sm:text-3xl md:text-[64px] font-semibold mb-4">
-              {t("HomePage.QualityServices.title1")} <br /> {t("HomePage.QualityServices.title2")}
+              {t("HomePage.QualityServices.title1")} <br />{" "}
+              {t("HomePage.QualityServices.title2")}
             </h1>
             <p className="text-sm sm:text-base mb-6">
               {t("HomePage.QualityServices.take")}
@@ -446,12 +446,16 @@ function index() {
             <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-12">
               {/* Contact Us button */}
               <button className="bg-white text-green-500 px-4 py-2 rounded-lg font-medium shadow-sm transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-md">
-                <a href="/contacts">{t("HomePage.QualityServices.contactUs")}</a>
+                <a href="/contacts">
+                  {t("HomePage.QualityServices.contactUs")}
+                </a>
               </button>
 
               {/* Learn More button */}
               <button className="border border-white text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-white hover:text-green-500 hover:scale-105 hover:shadow-md">
-                <a href="/services">{t("HomePage.QualityServices.learnMore")}</a>
+                <a href="/services">
+                  {t("HomePage.QualityServices.learnMore")}
+                </a>
               </button>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { FiPhone, FiMenu, FiX } from "react-icons/fi";
 import Vector from "../../icon/Vector.svg";
 import LanguageDropdown from "./LanguageDropdown";
 import { useTranslation } from "react-i18next";
-
+import Logo from "../../icon/Logo.png"
 const Header = () => {
 
   const { t } = useTranslation();
@@ -24,7 +24,7 @@ const Header = () => {
       <div className="max-w-[1240px] mx-auto flex justify-between items-center h-[70px] px-4 md:px-12">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <img src={Vector} alt="logo" className="w-8 h-8" />
+          <img  src={Logo} alt="logo" className="w-20 h-20 ml-[-40px]" />
           <span className="font-semibold text-lg tracking-wide">
             SSYSTEMS MB
           </span>
@@ -32,11 +32,11 @@ const Header = () => {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 text-sm font-medium">
-        <ul className="flex  gap-3.5">
-          <li>{t("Header.home")}</li>
-          <li>{t("Header.aboutUs")}</li>
-          <li>{t("Header.service")}</li>
-          <li>{t("Header.contact")}</li>
+        <ul className="flex  gap-7">
+          <li><a href="/">{t("Header.home")}</a></li>
+          <li><a href="/aboutUs">{t("Header.aboutUs")}</a></li>
+          <li><a href="/services">{t("Header.service")}</a></li>
+          <li><a href="/contacts">{t("Header.contact")}</a></li>
         </ul>
         </nav>
 
