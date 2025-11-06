@@ -1,5 +1,5 @@
 server:
-  port: ${SERVER_PORT:8080}
+  port: 8181
   servlet:
     context-path: /api
 
@@ -10,8 +10,8 @@ spring:
   # Database Configuration
   datasource:
     url: jdbc:postgresql://localhost:5432/myservicedb
-    username: postgres
-    password: Yunis_3876
+    username: myservice
+    password: AEmin_899_@!
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10

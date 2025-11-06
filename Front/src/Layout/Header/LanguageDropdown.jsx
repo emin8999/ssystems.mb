@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaChevronDown } from "react-icons/fa";
+import i18n from "../../language/i18n.js"; 
 import georga from "../../icon/georga.png";
 import russia from "../../icon/russian.png";
 import Lituan from "../../icon/Lituan.png";
@@ -10,12 +11,13 @@ export default function LanguageDropdown() {
   const [selected, setSelected] = useState({
     code: "Eng",
     label: "England",
-    icon: georga
+    icon: georga,
+    lng: "en",
   });
 
   const dropdownRef = useRef(null);
 
-  // Click outside to close
+  // Kənara kliklə bağlılıq
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
@@ -28,24 +30,25 @@ export default function LanguageDropdown() {
 
   const toggleDropdown = () => setOpen(!open);
 
+  // Dil seçimi
   const handleSelect = (lang) => {
     setSelected(lang);
     setOpen(false);
+    i18n.changeLanguage(lang.lng); // 🟢 Saytın dilini dəyiş
   };
 
   const languages = [
-    { code: "Lit", label: "Lithuania", icon: Lituan },
-    { code: "Eng", label: "England", icon: georga },
-    { code: "Ger", label: "Germany", icon: german },
-    { code: "Rus", label: "Russian", icon: russia }
+    { code: "Lit", label: "Lithuania", icon: Lituan, lng: "lt" },
+    { code: "Eng", label: "England", icon: georga, lng: "en" },
+    { code: "Ger", label: "Germany", icon: german, lng: "de" },
+    { code: "Rus", label: "Russian", icon: russia, lng: "ru" },
   ];
 
   return (
     <div ref={dropdownRef} className="relative inline-block text-left">
-      {/* Dropdown button */}
       <button
         onClick={toggleDropdown}
-        className="flex justify-between items-center w-[120px] px-4 py-2 rounded-md  focus:outline-none"
+        className="flex justify-between items-center w-[140px] px-4 py-2 rounded-md border  shadow-sm  "
       >
         <div className="flex items-center gap-1.5">
           <img src={selected.icon} alt={selected.label} className="w-4 h-4" />
@@ -54,7 +57,6 @@ export default function LanguageDropdown() {
         <FaChevronDown className="mr-[-10px]" />
       </button>
 
-      {/* Dropdown menu */}
       {open && (
         <div className="absolute mt-1 w-[150px] border rounded-md shadow-lg bg-white text-black z-50">
           <ul className="p-3 flex flex-col gap-2">
