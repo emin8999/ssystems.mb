@@ -3,8 +3,13 @@ import { Link, NavLink } from "react-router-dom";
 import { FiPhone, FiMenu, FiX } from "react-icons/fi";
 import Vector from "../../icon/Vector.svg";
 import LanguageDropdown from "./LanguageDropdown";
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
+
+  const { t } = useTranslation();
+
+  
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
@@ -21,25 +26,18 @@ const Header = () => {
         <Link to="/" className="flex items-center gap-2">
           <img src={Vector} alt="logo" className="w-8 h-8" />
           <span className="font-semibold text-lg tracking-wide">
-            SSYSTEMS MB
+            {t("welcome")}
           </span>
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 text-sm font-medium">
-          {navLinks.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              className={({ isActive }) =>
-                `hover:text-gray-300 transition-colors ${
-                  isActive ? "underline underline-offset-4" : ""
-                }`
-              }
-            >
-              {link.label}
-            </NavLink>
-          ))}
+        <ul className="flex  gap-3.5">
+          <li>{t("Header.Home")}</li>
+          <li>{t("Header.AboutUs")}</li>
+          <li>{t("Header.Home")}</li>
+          <li>{t("Header.Home")}</li>
+        </ul>
         </nav>
 
         {/* Telefon + Language + Mobile Menu */}
