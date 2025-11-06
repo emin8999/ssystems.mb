@@ -1,13 +1,364 @@
 {
-
   "Header": {
-    "Home": "HOMEEEEEEEE",
-    "AboutUs": "ABOUT US"
+    "home": "Home",
+    "aboutUs": "About Us",
+    "service": "Service",
+    "contact": "Contact",
+    "career": "Career",
+    "blog": "Blog",
+    "contactUs": "Contact Us"
   },
-  "Solutions": {
-    
+  
+  "Footer": {
+    "fromWorn": "From worn joints to complete rebuilds, our skilled welders provide lasting results with professional care.",
+    "myCompany": "My Company",
+    "about": "About",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "ourResource": "Our Resource",
+    "career": "Career",
+    "blog": "Blog",
+    "copyright": "© 2025 SSYSTEMS MB. All rights reserved."
   },
-  "hello": "Hello",
-  "welcome": "Said511"
 
+  "HomePage": {
+    "Solutions": {
+      "title": "Your Trusted Repairing Solution",
+      "welcome": "Welcome to SSYSTEMS MB, your go-to destination for all your repairing needs. From quick touch-ups to complete rebuilds, our skilled welders ensure strength, quality, and perfection in every project.",
+      "tryingNow": "Trying Now",
+      "learnMore": "Learn More"
+    },
+    "Extensive": {
+      "title": "Extensive Repair Solutions",
+      "fromRoutine1": "From routine maintenance to emergency repairs, our licensed plumbers",
+      "fromRoutine2": "are equipped to handle any job with efficiency and precision.",
+      "card1": {
+        "title": "Sewer Line Inspection and Repair",
+        "text": "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether i"
+      },
+      "card2": {
+        "title": "Water Heater Services",
+        "text": "A malfunctioning water heater can disrupt your daily routine and leave you without hot water when you need it most. Our water heater services encom"
+      },
+      "card3": {
+        "title": "Precision Welding Services",
+        "text": "Our team provides reliable welding and design services for all types of metal projects — from custom fabrication and repairs to industrial structures and creati"
+      },
+      "card4": {
+        "title": "Marine Engineering Solutions",
+        "text": "When your vessel needs urgent attention, you need skilled and reliable ship repair experts. Our team provides professional marine repair and maintena"
+      },
+      "card5": {
+        "title": "Quality Painting Services",
+        "text": "We offer professional interior and exterior painting services using high-quality materials and precise techniques. Whether it’s a single room or an entire b"
+      },
+      "card6": {
+        "title": "Sewer Line Inspection and Repair",
+        "text": "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether i"
+      },
+      "learnMore": "Learn More"
+    },
+    "Beyond": {
+      "title": "Serving Your Area and Beyond",
+      "text": "SSYSTEMS MB proudly serves customers in Lithuania and its surrounding regions, providing prompt and reliable repairing solutions to homes and businesses alike. Whether you're located in the heart of the city or in the outskirts, we're here to assist you."
+    },
+    "Book": {
+      "title": "Book your service in 3 easy steps",
+      "easySteps1": "Easy Steps to Get Started section simplifies the process of booking",
+      "easySteps2": "and receiving repairing services.",
+      "card1": {
+        "title": "Choose Your Repairing Service",
+        "text": "You can browse through our range of repairing services tailored to address various issues in your home or office."
+      },
+      "card2": {
+        "title": "Schedule Your Service",
+        "text": "Use our online booking system or call our hotline to schedule a service appointment that fits your schedule."
+      },
+      "card3": {
+        "title": "Job Completion and Satisfaction",
+        "text": "Once the job is completed to your satisfaction, our masters will clean up the work area and provide."
+      }
+    },
+    "Expert": {
+      "title1": "Expert Masters",
+      "title2": "at Your Service",
+      "eachMember": "Each member of our team is highly skilled, experienced, and trained to handle a wide range of plumbing issues efficiently and effectively. Whether it's a simple repair or a complex installation, you can trust our team to get the job done right the first time.",
+      "card1": {
+        "name": "Zain Vetrovs",
+        "job": "Welding Technician"
+      },
+      "card2": {
+        "name": "Zain Vetrovs",
+        "job": "Painting Technician"
+      },
+      "card3": {
+        "name": "Zain Vetrovs",
+        "job": "Electrical Technician"
+      }
+    },
+    "Customers": {
+      "title": "What Our Customers Say",
+      "text": "Don’t just take our word for it — hear what our satisfied customers have to say about their experience with SSYSTEMS MB.",
+      "card1": {
+        "name": "Marvin McKinney",
+        "job": "CEO of XXX Company",
+        "comment": "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!"
+      },
+      "card2": {
+        "name": "Marvin McKinney",
+        "job": "CEO of XXX Company",
+        "comment": "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!"
+      }
+    },
+    "QualityServices": {
+      "title1": "Ready to Experience",
+      "title2": "Quality Services",
+      "take": "Take the first step towards resolving your issues by contacting us today. Our team of skilled professionals is ready to assist you with all your repairing needs.",
+      "contactUs": "Contact Us",
+      "learnMore": "Learn More"
+    }
+  },
+
+  "AboutUs": {
+    "Header": {
+      "aboutUs": "About Us",
+      "text": "SSYSTEMS MB proudly serves customers in Lithuania and its surrounding regions, providing prompt and reliable repairing solutions to homes and businesses alike. Whether you're located in the heart of the city or in the outskirts, we're here to assist you."
+    },
+    "Experience": {
+      "title": "Experienced and Trusted by people",
+      "weAre": "We're more than just a home repair company — we're your reliable partner for keeping your home safe, comfortable, and running smoothly. Our team of experienced technicians provides trusted repair, maintenance, and installation services for plumbing, electrical, painting, carpentry, and more.",
+      "weBelieve": "We believe quality service starts with trust, clear communication, and skilled craftsmanship. Whether it's a small fix or a full renovation, we approach every project with care, efficiency, and attention to detail.",
+      "ourMission": "Our mission is simple: to make home repair easy, affordable, and stress-free — so you can focus on what matters most.",
+      "years": "Years Experiences",
+      "happy": "Happy Customers",
+      "qualified": "Qualified workers"
+    },
+    "OurTeam": {
+      "title": "Meet Our Awesome Team",
+      "eachMember": "Each member of our team is highly skilled, experienced, and trained to handle a wide range of plumbing issues efficiently and effectively. Whether it's a simple repair or a complex installation, you can trust our team to get the job done right the first time.",
+      "employee1": {
+        "name": "Zain Vetrovs",
+        "position": "Welding Technician"
+      },
+      "employee2": {
+        "name": "Zain Vetrovs",
+        "position": "Painting Technician"
+      },
+      "employee3": {
+        "name": "Zain Vetrovs",
+        "position": "Electrical Technician"
+      },
+      "employee4": {
+        "name": "Zain Vetrovs",
+        "position": "Senior Technician"
+      },
+      "employee5": {
+        "name": "Zain Vetrovs",
+        "position": "Installation Expert"
+      },
+      "employee6": {
+        "name": "Zain Vetrovs",
+        "position": "Quality Controller"
+      },
+      "showLess": "Show Less",
+      "viewMore": "View More"
+    },
+    "CustomerSay": {
+      "title": "What Our Customers Say",
+      "text": "Don't just take our word for it – hear what our satisfied customers have to say about their experience with SSYSTEMS MB.",
+      "customerReview1": {
+        "name": "Marvin McKinney",
+        "position": "CEO of XXX Company",
+        "comment": "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!"
+      },
+      "customerReview2": {
+        "name": "Sarah Johnson",
+        "position": "Homeowner",
+        "comment": "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!"
+      }
+    },
+    "OurServices": {
+      "title": "Ready to Experience Quality Services",
+      "take": "Take the first step towards resolving your issues by contacting us today. Our team of skilled professionals is ready to assist you with all your repairing needs.",
+      "contactUs": "Contact Us",
+      "learnMore":"Learn More"
+    }
+  },
+
+  "Service": {
+    "Hero": {
+      "title1": "We Provide The Best",
+      "title2": "Service for You",
+      "text": "SSYSTEMS MB proudly serves customers in Lithuania and its surrounding regions, providing prompt and reliable repairing solutions to homes and businesses alike. Whether you're located in the heart of the city or in the outskirts, we're here to assist you."
+    },
+    "WhyChooseUs": {
+      "title": "Why People Choose Us",
+      "feature1": {
+        "title": "24/7 Service",
+        "description": "Day or night, our team is always ready. We're available around the clock to handle your urgent repairs whenever you need us."
+      },
+      "feature2": {
+        "title": "Clear On Cost",
+        "description": "We believe in honesty and clarity. That's why we give upfront quotes — so you know exactly what you're paying for."
+      },
+      "feature3": {
+        "title": "Excellent Work",
+        "description": "Our skilled technicians ensure every job meets the highest standards of workmanship and care."
+      }
+    },
+    "SewerServices": {
+      "service1": {
+        "title": "Sewer Line Inspection and Repair",
+        "description": "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages."
+      },
+      "service2": {
+        "title": "Water Heater Services",
+        "description": "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply."
+      },
+      "service3": {
+        "title": "Water Heater Services",
+        "description": "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply."
+      },
+      "service4": {
+        "title": "Sewer Line Inspection and Repair",
+        "description": "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages."
+      },
+      "service5": {
+        "title": "Water Heater Services",
+        "description": "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply."
+      },
+      "service6": {
+        "title": "Sewer Line Inspection and Repair",
+        "description": "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages."
+      },
+      "learnMore":"Learn More "
+    },
+    "Customer": {
+      "title": "What Our Customers Say",
+      "text": "Don't just take our word for it – hear what our satisfied customers have to say about their experience with SSYSTEMS MB.",
+      "testimonial1": {
+        "name": "Marvin McKinney",
+        "position": "CEO of XXX Company",
+        "text": "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!"
+      },
+      "testimonial2": {
+        "name": "Marvin McKinney",
+        "position": "CEO of XXX Company",
+        "text": "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!"
+      }
+    } 
+  },
+
+  "Contact": {
+    "Header": {
+      "title": "Get Connect with Us",
+      "text": "SSYSTEMS MB serves customers in Lithuania and nearby areas, providing fast and reliable repair solutions for homes and businesses. Whether you’re in the city center or outskirts, we’re here to help."
+    },
+    "send": "Send Us Message",
+    "reach1": "Reach out to our support team for any service requests, questions, or",
+    "reach2": "estimates — we’ll respond promptly.",
+    "enterMail": "Enter Your mail",
+    "enterName": "Enter Your name",
+    "enterMessage": "Enter Your message",
+    "sendMessage": "Send Messages"
+  },
+
+  "Career": {
+    "Header": {
+      "build": "Built the Future with Us",
+      "text": "We're looking for skilled, passionate, and responsible professionals who are ready to create, repair, and innovate together. At our company, every project matters — from welding and ship repair to home renovation and industrial construction.",
+      "join": "Join Our Team"
+    },
+    "AboutWork": {
+      "title": "Why Work With Us?",
+      "text": "We believe that great results come from teamwork, respect, and dedication. Our employees are the foundation of everything we build. Whether you're a welder, engineer, or construction expert, you'll have opportunities to grow, learn, and contribute to projects that make a difference.",
+      "benefit1": "Stable and long-term employment",
+      "benefit2": "Safe and supportive work environment",
+      "benefit3": "Career growth opportunities",
+      "benefit4": "Training and skill development programs",
+      "benefit5": "Competitive salary and bonuses"
+    },
+    "OpenPositions": {
+      "current": "Current Job Openings",
+      "job1": {
+        "title": "Welder",
+        "type": "Full-time / On-site",
+        "description": "Experience with MIG, TIG, and stick welding required."
+      },
+      "job2": {
+        "title": "Construction Worker",
+        "type": "Full-time / Project-based",
+        "description": "Knowledge of modern tools and safety procedures is a must."
+      },
+      "job3": {
+        "title": "Ship Repair Technician",
+        "type": "Full-time",
+        "description": "Work in port area; technical education preferred."
+      },
+      "apply": "Apply Now"
+    },
+    "ApplicationForm": {
+      "title": "Submit Your Application",
+      "text": "Send us your details and we'll get back to you. We're always excited to meet professionals who are passionate about what they do.",
+      "applicationSubmitted": "✅ Application submitted successfully! We'll contact you soon.",
+      "send": "Send Application",
+      "name": "Full Name *",
+      "phone": "Phone Number *",
+      "email": "Email Address *",
+      "position": "Position Applied For *",
+      "select": "Select a position",
+      "upload": "Upload Resume (optional)",
+      "selectedFile": "Selected file:",
+      "message": "Message / Cover Letter",
+      "tellUs": "Tell us about yourself and why you're interested in this position..."
+    },
+    "Closing": {
+      "title": "Together, we build not just structures — we build trust.",
+      "join": "Join us in creating lasting impact through quality craftsmanship and unwavering reliability."
+    }
+  },
+
+  "Blog": {
+    "post1": {
+      "title": "How Welding Shapes Modern Industry",
+      "description": "Discover how precision welding defines the durability and safety of modern infrastructure.",
+      "date": "03 November 2025"
+    },
+    "post2": {
+      "title": "Inside Our Latest Ship Repair Project",
+      "description": "A detailed look into how our team restored a 40-meter cargo vessel with cutting-edge methods.",
+      "date": "20 October 2025"
+    },
+    "post3": {
+      "title": "Safety First: How We Keep Every Workplace Secure",
+      "description": "Our commitment to maintaining high safety standards across all operations.",
+      "date": "08 September 2025"
+    },
+    "post4": {
+      "title": "Revolutionizing Construction Through Technology",
+      "description": "Learn how automation and smart tools are transforming the construction industry.",
+      "date": "28 August 2025"
+    },
+    "post5": {
+      "title": "Meet the Team Behind Our Success",
+      "description": "Get to know the skilled engineers and technicians powering our best projects.",
+      "date": "12 August 2025"
+    },
+    "Hero": {
+      "title": "Building the Future — One Weld at a Time.",
+      "text": "News, Tips, and Real Stories from the field — welding, construction, innovation, and teamwork shaping tomorrow’s infrastructure."
+    },
+    "readMore": "Read More →",
+    "search": "Search",
+    "categories": "Categories",
+    "welding": "Welding",
+    "construction": "Construction",
+    "repair": "Repair",
+    "safety": "Safety",
+    "projects": "Projects",
+    "recent": "Recent Posts",
+    "tags": "Tags",
+    "knowladge": "“Knowledge shared is power multiplied.”",
+    "follow": "Follow Us for More Updates"
+  }
 }

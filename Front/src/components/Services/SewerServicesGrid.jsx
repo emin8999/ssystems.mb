@@ -1,55 +1,54 @@
+import { useTranslation } from "react-i18next";
+
 export default function SewerServicesGrid() {
+
+  const { t } = useTranslation();
+
   const services = [
     {
       id: 1,
-      title: "Sewer Line Inspection and Repair",
-      description:
-        "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages.",
+      title: `${t("Service.SewerServices.service1.title")}`,
+      description: `${t("Service.SewerServices.service1.description")}`,
       image:
         "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
       imagePosition: "left",
     },
     {
       id: 2,
-      title: "Water Heater Services",
-      description:
-        "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply.",
+      title: `${t("Service.SewerServices.service2.title")}`,
+      description: `${t("Service.SewerServices.service2.description")}`,
       image:
         "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
       imagePosition: "right",
     },
     {
       id: 3,
-      title: "Water Heater Services",
-      description:
-        "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply.",
+      title: `${t("Service.SewerServices.service3.title")}`,
+      description: `${t("Service.SewerServices.service3.description")}`,
       image:
         "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
       imagePosition: "left",
     },
     {
       id: 4,
-      title: "Sewer Line Inspection and Repair",
-      description:
-        "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages.",
+      title: `${t("Service.SewerServices.service4.title")}`,
+      description:`${t("Service.SewerServices.service4.description")}`,
       image:
         "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
       imagePosition: "right",
     },
     {
       id: 5,
-      title: "Water Heater Services",
-      description:
-        "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply.",
+      title: `${t("Service.SewerServices.service5.title")}`,
+      description:`${t("Service.SewerServices.service5.description")}`,
       image:
         "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
       imagePosition: "left",
     },
     {
       id: 6,
-      title: "Sewer Line Inspection and Repair",
-      description:
-        "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages.",
+      title: `${t("Service.SewerServices.service6.title")}`,
+      description:`${t("Service.SewerServices.service6.description")}`,
       image:
         "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
       imagePosition: "right",
@@ -92,7 +91,7 @@ export default function SewerServicesGrid() {
                 {service.description}
               </p>
               <button className="px-6 py-3 border-2 border-[#0ED789] text-[#0ED789] rounded-[10px] text-lg font-medium hover:bg-emerald-50 transition-colors duration-300 cursor-pointer">
-                Learn More
+                {t("Service.SewerServices.learnMore")}
               </button>
             </div>
           </div>

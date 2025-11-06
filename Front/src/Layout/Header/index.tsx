@@ -26,17 +26,17 @@ const Header = () => {
         <Link to="/" className="flex items-center gap-2">
           <img src={Vector} alt="logo" className="w-8 h-8" />
           <span className="font-semibold text-lg tracking-wide">
-            {t("welcome")}
+            SSYSTEMS MB
           </span>
         </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex gap-8 text-sm font-medium">
         <ul className="flex  gap-3.5">
-          <li>{t("Header.Home")}</li>
-          <li>{t("Header.AboutUs")}</li>
-          <li>{t("Header.Home")}</li>
-          <li>{t("Header.Home")}</li>
+          <li>{t("Header.home")}</li>
+          <li>{t("Header.aboutUs")}</li>
+          <li>{t("Header.service")}</li>
+          <li>{t("Header.contact")}</li>
         </ul>
         </nav>
 
@@ -96,19 +96,19 @@ const Header = () => {
             </div>
 
             <div className="mb-4">
-              <p className="font-semibold mb-2">Our Resource</p>
+              <p className="font-semibold mb-2">{t("Header.home")}</p>
               <ul className="space-y-1 text-gray-600">
                 <li>
-                  <a href="#" className="hover:text-[#0A8B58]">Career</a>
+                  <a href="#" className="hover:text-[#0A8B58]">{t("Header.career")}</a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-[#0A8B58]">Blog</a>
+                  <a href="#" className="hover:text-[#0A8B58]">{t("Header.blog")}</a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <p className="font-semibold mb-2">Contact Us</p>
+              <p className="font-semibold mb-2">{t("Header.contactUs")}</p>
               <div className="flex items-center gap-2 mb-1">
                 <FiPhone className="text-[#0A8B58]" />
                 <a href="tel:9075550101" className="hover:text-[#0A8B58]">(907) 555-0101</a>

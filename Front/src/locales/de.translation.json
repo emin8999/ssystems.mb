@@ -1,4 +1,364 @@
 {
-  "hello": "Hello",
-  "welcome": "Welcome to our website!"
+  "Header": {
+    "home": "Startseite",
+    "aboutUs": "Über uns",
+    "service": "Dienstleistungen",
+    "contact": "Kontakt",
+    "career": "Karriere",
+    "blog": "Blog",
+    "contactUs": "Kontaktieren Sie uns"
+  },
+
+  "Footer": {
+    "fromWorn": "Von verschlissenen Gelenken bis hin zu umfassenden Überholungen – unsere erfahrenen Schweißer liefern dauerhafte Ergebnisse mit professioneller Sorgfalt.",
+    "myCompany": "Mein Unternehmen",
+    "about": "Über",
+    "services": "Dienstleistungen",
+    "contactUs": "Kontaktieren Sie uns",
+    "ourResource": "Unsere Ressourcen",
+    "career": "Karriere",
+    "blog": "Blog",
+    "copyright": "© 2025 SSYSTEMS MB. Alle Rechte vorbehalten."
+  },
+
+  "HomePage": {
+    "Solutions": {
+      "title": "Ihre vertrauenswürdige Reparaturlösung",
+      "welcome": "Willkommen bei SSYSTEMS MB, Ihrer Anlaufstelle für alle Reparatur-Bedürfnisse. Von schnellen Ausbesserungen bis hin zu kompletten Überholungen — unsere erfahrenen Schweißer gewährleisten **Stärke**, **Qualität** und **Perfektion** bei jedem Projekt.",
+      "tryingNow": "Jetzt ausprobieren",
+      "learnMore": "Mehr erfahren"
+    },
+    "Extensive": {
+      "title": "Umfassende Reparaturlösungen",
+      "fromRoutine1": "Von routinemäßiger Wartung bis hin zu Notfall­reparaturen – unsere lizenzierten Klempner",
+      "fromRoutine2": "sind ausgestattet, um jeden Auftrag effizient und präzise zu erledigen.",
+      "card1": {
+        "title": "Inspektion und Reparatur von Abwasserleitungen",
+        "text": "Unsere Inspektion und Reparatur der Abwasserleitung nutzt modernste Kamera­technik, um Probleme in Ihrer Abwasserleitung schnell zu erkennen. Ob Wurzeleinwuchs, Risse oder Verstopfungen."
+      },
+      "card2": {
+        "title": "Wasser­erhitzer-Dienstleistungen",
+        "text": "Ein defekter Wasser­erhitzer kann Ihren Alltag stören und Sie ohne heißes Wasser zurücklassen, wenn Sie es am meisten benötigen. Unsere Wasser­erhitzer-Dienstleistungen umfassen Installation, Wartung und Reparatur."
+      },
+      "card3": {
+        "title": "Präzise Schweiß-Dienstleistungen",
+        "text": "Unser Team bietet zuverlässige Schweiß- und Design-Dienstleistungen für alle Metallprojekte – von kundenspezifischer Fertigung und Reparatur bis hin zu industriellen Konstruktionen."
+      },
+      "card4": {
+        "title": "Marine-Ingenieur-Lösungen",
+        "text": "Wenn Ihr Schiff dringend Aufmerksamkeit benötigt, brauchen Sie erfahrene und zuverlässige Experten für Schiff­reparatur. Unser Team liefert professionelle Marine­reparatur und –wartung."
+      },
+      "card5": {
+        "title": "Qualitativ hochwertige Maler­arbeiten",
+        "text": "Wir bieten professionelle Innen- und Außen­maler­arbeiten mit hochwertigen Materialien und präziser Technik. Ob ein einzelner Raum oder ein komplettes Gebäude."
+      },
+      "card6": {
+        "title": "Inspektion und Reparatur von Abwasserleitungen",
+        "text": "Unsere Inspektion und Reparatur der Abwasserleitung nutzt modernste Kamera­technik, um Probleme in Ihrer Abwasserleitung schnell zu erkennen. Ob Wurzeleinwuchs, Risse oder Verstopfungen."
+      },
+      "learnMore": "Mehr erfahren"
+    },
+    "Beyond": {
+      "title": "Wir bedienen Ihre Region und darüber hinaus",
+      "text": "SSYSTEMS MB betreut Kunden in Litauen und den umliegenden Regionen – wir bieten schnelle und zuverlässige Reparatur­lösungen für Zuhause und Unternehmen. Ob in der Innenstadt oder am Stadtrand – wir sind für Sie da."
+    },
+    "Book": {
+      "title": "Buchen Sie Ihren Service in 3 einfachen Schritten",
+      "easySteps1": "Der Abschnitt „Einfache Schritte zum Start“ vereinfacht den Prozess der Buchung",
+      "easySteps2": "und Inanspruchnahme unserer Reparatur­dienstleistungen.",
+      "card1": {
+        "title": "Wählen Sie Ihre Reparatur­dienstleistung",
+        "text": "Sie können durch unser Angebot an Reparatur­dienstleistungen blättern, die auf verschiedene Probleme in Ihrem Zuhause oder Büro zugeschnitten sind."
+      },
+      "card2": {
+        "title": "Planen Sie Ihren Termin",
+        "text": "Nutzen Sie unser Online-Buchungssystem oder rufen Sie unsere Hotline an, um einen Service­termin zu vereinbaren, der in Ihren Zeitplan passt."
+      },
+      "card3": {
+        "title": "Auftrags­erledigung und Zufriedenheit",
+        "text": "Nach Fertigstellung des Auftrags zu Ihrer Zufriedenheit räumen unsere Meister den Arbeitsbereich auf und bieten Ihnen …"
+      }
+    },
+    "Expert": {
+      "title1": "Expert:innen",
+      "title2": "für Sie im Einsatz",
+      "eachMember": "Jedes Mitglied unseres Teams ist hochqualifiziert, erfahren und geschult, um eine breite Palette von Installations- und Reparatur­aufgaben effizient und wirkungsvoll zu bewältigen. Ob eine einfache Reparatur oder eine komplexe Installation – Sie können unserem Team vertrauen, dass es den Auftrag beim ersten Mal richtig ausführt.",
+      "card1": {
+        "name": "Zain Vetrovs",
+        "job": "Schweiß­techniker"
+      },
+      "card2": {
+        "name": "Zain Vetrovs",
+        "job": "Maler­techniker"
+      },
+      "card3": {
+        "name": "Zain Vetrovs",
+        "job": "Elektro­techniker"
+      }
+    },
+    "Customers": {
+      "title": "Was unsere Kund:innen sagen",
+      "text": "Glauben Sie nicht allein unserem Wort – hören Sie, was unsere zufriedenen Kund:innen über ihre Erfahrung mit SSYSTEMS MB sagen.",
+      "card1": {
+        "name": "Marvin McKinney",
+        "job": "CEO von XXX Company",
+        "comment": "Ich war beeindruckt von der Professionalität und Effizienz des Teams von SSYSTEMS MB. Sie kamen pünktlich, diagnostizierten das Problem schnell und lösten es mit minimaler Störung. Sehr empfehlenswert!"
+      },
+      "card2": {
+        "name": "Marvin McKinney",
+        "job": "CEO von XXX Company",
+        "comment": "Ich war beeindruckt von der Professionalität und Effizienz des Teams von SSYSTEMS MB. Sie kamen pünktlich, diagnostizierten das Problem schnell und lösten es mit minimaler Störung. Sehr empfehlenswert!"
+      }
+    },
+    "QualityServices": {
+      "title1": "Bereit für",
+      "title2": "qualitativ hochwertige Dienstleistungen",
+      "take": "Machen Sie den ersten Schritt zur Lösung Ihrer Probleme – kontaktieren Sie uns noch heute. Unser Team von Fachkräften steht bereit, um Ihnen bei all Ihren Reparatur­bedürfnissen zu helfen.",
+      "contactUs": "Kontaktieren Sie uns",
+      "learnMore": "Mehr erfahren"
+    }
+  },
+
+  "AboutUs": {
+    "Header": {
+      "aboutUs": "Über uns",
+      "text": "SSYSTEMS MB betreut Kunden in Litauen und den umliegenden Regionen – wir bieten schnelle und zuverlässige Reparatur­lösungen für Zuhause und Unternehmen. Ob in der Innenstadt oder am Stadtrand – wir sind für Sie da."
+    },
+    "Experience": {
+      "title": "Erfahren und von Menschen vertraut",
+      "weAre": "Wir sind mehr als nur eine Haus­reparatur­firma – wir sind Ihr verlässlicher Partner, damit Ihr Zuhause sicher, komfortabel und reibungslos läuft. Unser Team erfahrener Techniker bietet vertrauens­würdige Reparatur-, Wartungs- und Installations­dienste für Sanitär, Elektro, Maler­arbeiten, Tischlerarbeiten und mehr.",
+      "weBelieve": "Wir glauben, dass qualitativ hochwertiger Service mit Vertrauen, klarer Kommunikation und handwerklicher Präzision beginnt. Ob eine kleine Ausbesserung oder eine komplette Renovierung – wir gehen jedes Projekt mit Sorgfalt, Effizienz und Liebe zum Detail an.",
+      "ourMission": "Unsere Mission ist einfach: Haus­reparatur soll leicht, erschwinglich und stressfrei sein – sodass Sie sich auf das konzentrieren können, was am wichtigsten ist.",
+      "years": "Jahre Erfahrung",
+      "happy": "Zufriedene Kund:innen",
+      "qualified": "Qualifizierte Fachkräfte"
+    },
+    "OurTeam": {
+      "title": "Lernen Sie unser großartiges Team kennen",
+      "eachMember": "Jedes Mitglied unseres Teams ist hochqualifiziert, erfahren und geschult, um eine breite Palette von Installations- und Reparatur­aufgaben effizient und wirkungsvoll zu bewältigen. Ob eine einfache Reparatur oder eine komplexe Installation – Sie können unserem Team vertrauen, dass es den Auftrag beim ersten Mal richtig ausführt.",
+      "employee1": {
+        "name": "Zain Vetrovs",
+        "position": "Schweiß­techniker"
+      },
+      "employee2": {
+        "name": "Zain Vetrovs",
+        "position": "Maler­techniker"
+      },
+      "employee3": {
+        "name": "Zain Vetrovs",
+        "position": "Elektro­techniker"
+      },
+      "employee4": {
+        "name": "Zain Vetrovs",
+        "position": "Senior Techniker"
+      },
+      "employee5": {
+        "name": "Zain Vetrovs",
+        "position": "Installations-Experte"
+      },
+      "employee6": {
+        "name": "Zain Vetrovs",
+        "position": "Qualitäts-Kontrolleur"
+      },
+      "showLess": "Weniger anzeigen",
+      "viewMore": "Mehr anzeigen"
+    },
+    "CustomerSay": {
+      "title": "Was unsere Kund:innen sagen",
+      "text": "Glauben Sie nicht allein unserem Wort – hören Sie, was unsere zufriedenen Kund:innen über ihre Erfahrung mit SSYSTEMS MB sagen.",
+      "customerReview1": {
+        "name": "Marvin McKinney",
+        "position": "CEO von XXX Company",
+        "comment": "Ich war beeindruckt von der Professionalität und Effizienz des Teams von SSYSTEMS MB. Sie kamen pünktlich, diagnostizierten das Problem schnell und lösten es mit minimaler Störung. Sehr empfehlenswert!"
+      },
+      "customerReview2": {
+        "name": "Sarah Johnson",
+        "position": "Haus­eigentümerin",
+        "comment": "Ich war beeindruckt von der Professionalität und Effizienz des Teams von SSYSTEMS MB. Sie kamen pünktlich, diagnostizierten das Problem schnell und lösten es mit minimaler Störung. Sehr empfehlenswert!"
+      }
+    },
+    "OurServices": {
+      "title": "Bereit, qualitativ hochwertige Dienstleistungen zu erleben",
+      "take": "Machen Sie den ersten Schritt zur Lösung Ihrer Probleme – kontaktieren Sie uns noch heute. Unser Team von Fachkräften steht bereit, um Ihnen bei all Ihren Reparatur­bedürfnissen zu helfen.",
+      "contactUs": "Kontaktieren Sie uns",
+      "learnMore": "Mehr erfahren"
+    }
+  },
+
+  "Service": {
+    "Hero": {
+      "title1": "Wir bieten den besten",
+      "title2": "Service für Sie",
+      "text": "SSYSTEMS MB betreut Kunden in Litauen und den umliegenden Regionen – wir bieten schnelle und zuverlässige Reparatur­lösungen für Zuhause und Unternehmen. Ob in der Innenstadt oder am Stadtrand – wir sind für Sie da."
+    },
+    "WhyChooseUs": {
+      "title": "Warum Menschen uns wählen",
+      "feature1": {
+        "title": "24/7-Service",
+        "description": "Tag und Nacht – unser Team ist jederzeit einsatzbereit. Wir sind rund um die Uhr verfügbar, um Ihre dringenden Reparaturen zu übernehmen, wann immer Sie uns benötigen."
+      },
+      "feature2": {
+        "title": "Klar bei den Kosten",
+        "description": "Wir glauben an Ehrlichkeit und Transparenz. Deshalb erhalten Sie von uns eine klare Kostenaufstellung im Voraus – so wissen Sie genau, wofür Sie bezahlen."
+      },
+      "feature3": {
+        "title": "Ausgezeichnete Arbeit",
+        "description": "Unsere erfahrenen Techniker sorgen dafür, dass jeder Auftrag den höchsten Anforderungen an Qualität und Sorgfalt entspricht."
+      }
+    },
+    "SewerServices": {
+      "service1": {
+        "title": "Inspektion und Reparatur von Abwasserleitungen",
+        "description": "Unsere Inspektion und Reparatur der Abwasserleitung nutzt modernste Kamera­technik, um Probleme in Ihrer Abwasserleitung schnell zu erkennen. Ob Wurzeleinwuchs, Risse oder Verstopfungen."
+      },
+      "service2": {
+        "title": "Wasser­erhitzer-Dienstleistungen",
+        "description": "Professionelle Installation, Wartung und Reparatur von Wasser­erhitzern. Wir sorgen dafür, dass Ihr System effizient und zuverlässig arbeitet – für eine gleichbleibende Versorgung mit warmem Wasser."
+      },
+      "service3": {
+        "title": "Wasser­erhitzer-Dienstleistungen",
+        "description": "Professionelle Installation, Wartung und Reparatur von Wasser­erhitzern. Wir sorgen dafür, dass Ihr System effizient und zuverlässig arbeitet – für eine gleichbleibende Versorgung mit warmem Wasser."
+      },
+      "service4": {
+        "title": "Inspektion und Reparatur von Abwasserleitungen",
+        "description": "Unsere Inspektion und Reparatur der Abwasserleitung nutzt modernste Kamera­technik, um Probleme in Ihrer Abwasserleitung schnell zu erkennen. Ob Wurzeleinwuchs, Risse oder Verstopfungen."
+      },
+      "service5": {
+        "title": "Wasser­erhitzer-Dienstleistungen",
+        "description": "Professionelle Installation, Wartung und Reparatur von Wasser­erhitzern. Wir sorgen dafür, dass Ihr System effizient und zuverlässig arbeitet – für eine gleichbleibende Versorgung mit warmem Wasser."
+      },
+      "service6": {
+        "title": "Inspektion und Reparatur von Abwasserleitungen",
+        "description": "Unsere Inspektion und Reparatur der Abwasserleitung nutzt modernste Kamera­technik, um Probleme in Ihrer Abwasserleitung schnell zu erkennen. Ob Wurzeleinwuchs, Risse oder Verstopfungen."
+      },
+      "learnMore": "Mehr erfahren"
+    },
+    "Customer": {
+      "title": "Was unsere Kund:innen sagen",
+      "text": "Glauben Sie nicht allein unserem Wort – hören Sie, was unsere zufriedenen Kund:innen über ihre Erfahrung mit SSYSTEMS MB sagen.",
+      "testimonial1": {
+        "name": "Marvin McKinney",
+        "position": "CEO von XXX Company",
+        "text": "Ich war beeindruckt von der Professionalität und Effizienz des Teams von SSYSTEMS MB. Sie kamen pünktlich, diagnostizierten das Problem schnell und lösten es mit minimaler Störung. Sehr empfehlenswert!"
+      },
+      "testimonial2": {
+        "name": "Marvin McKinney",
+        "position": "CEO von XXX Company",
+        "text": "Ich war beeindruckt von der Professionalität und Effizienz des Teams von SSYSTEMS MB. Sie kamen pünktlich, diagnostizierten das Problem schnell und lösten es mit minimaler Störung. Sehr empfehlenswert!"
+      }
+    }
+  },
+
+  "Contact": {
+    "Header": {
+      "title": "Mit uns in Verbindung treten",
+      "text": "SSYSTEMS MB betreut Kunden in Litauen und den umliegenden Regionen – wir bieten schnelle und zuverlässige Reparatur­lösungen für Zuhause und Unternehmen. Ob im Stadtzentrum oder am Stadtrand – wir sind für Sie da."
+    },
+    "send": "Senden Sie uns eine Nachricht",
+    "reach1": "Wenden Sie sich mit Service-Anfragen, Fragen oder",
+    "reach2": "Kostenvoranschlägen an unser Support-Team — wir antworten zeitnah.",
+    "enterMail": "Geben Sie Ihre E-Mail-Adresse ein",
+    "enterName": "Geben Sie Ihren Namen ein",
+    "enterMessage": "Geben Sie Ihre Nachricht ein",
+    "sendMessage": "Nachricht senden"
+  },
+
+  "Career": {
+    "Header": {
+      "build": "Gestalten Sie mit uns die Zukunft",
+      "text": "Wir suchen qualifizierte, leidenschaftliche und verantwortungsbewusste Fachkräfte, die bereit sind, gemeinsam zu schaffen, zu reparieren und zu innovieren. In unserem Unternehmen zählt jedes Projekt – von Schweiß- und Schiff­reparatur über Haus­renovierung bis hin zu Industrie­bau.",
+      "join": "Treten Sie unserem Team bei"
+    },
+    "AboutWork": {
+      "title": "Warum bei uns arbeiten?",
+      "text": "Wir glauben, dass großartige Ergebnisse aus Team­arbeit, Respekt und Engagement entstehen. Unsere Mitarbeitenden sind das Fundament all dessen, was wir bauen. Ob Sie Schweißer:in, Ingenieur:in oder Bau­expert:in sind – Sie haben Entwicklungsmöglichkeiten, können lernen und zu Projekten beitragen, die einen Unterschied machen.",
+      "benefit1": "Stabile und langfristige Beschäftigung",
+      "benefit2": "Sicheres und unterstützendes Arbeitsumfeld",
+      "benefit3": "Karriere-Entwicklungsmöglichkeiten",
+      "benefit4": "Aus- und Weiterbildungsprogramme",
+      "benefit5": "Wettbewerbsfähiges Gehalt und Boni"
+    },
+    "OpenPositions": {
+      "current": "Aktuelle Stellenangebote",
+      "job1": {
+        "title": "Schweißer:in",
+        "type": "Vollzeit / Vor Ort",
+        "description": "Erfahrung mit MIG-, TIG- und Lichtbogen­schweißen erforderlich."
+      },
+      "job2": {
+        "title": "Bau­arbeiter:in",
+        "type": "Vollzeit / Projekt­basiert",
+        "description": "Kenntnisse moderner Werkzeuge und Sicherheits­verfahren sind ein Muss."
+      },
+      "job3": {
+        "title": "Schiff Reparatur Techniker:in",
+        "type": "Vollzeit",
+        "description": "Arbeit im Hafenbereich; technische Ausbildung bevorzugt."
+      },
+      "apply": "Jetzt bewerben"
+    },
+    "ApplicationForm": {
+      "title": "Bewerbung einreichen",
+      "text": "Senden Sie uns Ihre Daten und wir melden uns bei Ihnen. Wir freuen uns immer darauf, Fachkräfte kennenzulernen, die mit Leidenschaft bei der Sache sind.",
+      "applicationSubmitted": "✅ Bewerbung erfolgreich eingereicht! Wir kontaktieren Sie bald.",
+      "send": "Bewerbung senden",
+      "name": "Vollständiger Name *",
+      "phone": "Telefon­nummer *",
+      "email": "E-Mail-Adresse *",
+      "position": "Position, für die Sie sich bewerben *",
+      "select": "Position auswählen",
+      "upload": "Lebenslauf hochladen (optional)",
+      "selectedFile": "Ausgewählte Datei:",
+      "message": "Nachricht / Anschreiben",
+      "tellUs": "Erzählen Sie uns etwas über sich und warum Sie an dieser Position interessiert sind..."
+    },
+    "Closing": {
+      "title": "Gemeinsam bauen wir nicht nur Strukturen – wir bauen Vertrauen.",
+      "join": "Werden Sie Teil unseres Teams und schaffen Sie bleibende Wirkung durch qualitatives Handwerk und unerschütterliche Zuverlässigkeit."
+    }
+  },
+
+  "Blog": {
+    "post1": {
+      "title": "Wie Schweißen die moderne Industrie prägt",
+      "description": "Entdecken Sie, wie präzises Schweißen die Haltbarkeit und Sicherheit moderner Infrastruktur bestimmt.",
+      "date": "03. November 2025"
+    },
+    "post2": {
+      "title": "Einblick in unser neuestes Schiff­reparaturprojekt",
+      "description": "Ein detaillierter Blick darauf, wie unser Team ein 40-Metern-Fracht­schiff mit modernsten Methoden restauriert hat.",
+      "date": "20. Oktober 2025"
+    },
+    "post3": {
+      "title": "Sicherheit zuerst: Wie wir jeden Arbeits­platz sicher gestalten",
+      "description": "Unser Engagement dafür, bei allen Einsätzen höchste Sicherheits­standards einzuhalten.",
+      "date": "08. September 2025"
+    },
+    "post4": {
+      "title": "Revolutionierung des Bauens durch Technologie",
+      "description": "Erfahren Sie, wie Automatisierung und smarte Werkzeuge die Bau­industrie verändern.",
+      "date": "28. August 2025"
+    },
+    "post5": {
+      "title": "Lernen Sie das Team hinter unserem Erfolg kennen",
+      "description": "Lernen Sie die qualifizierten Ingenieur:innen und Techniker:innen kennen, die unsere besten Projekte vorantreiben.",
+      "date": "12. August 2025"
+    },
+    "Hero": {
+      "title": "Die Zukunft bauen – ein Schweißzug nach dem anderen.",
+      "text": "News, Tipps und echte Geschichten vom Praxis­einsatz – Schweißen, Bau, Innovation und Team­arbeit prägen die Infrastruktur von morgen."
+    },
+    "readMore": "Mehr erfahren →",
+    "search": "Suche",
+    "categories": "Kategorien",
+    "welding": "Schweißen",
+    "construction": "Bau",
+    "repair": "Reparatur",
+    "safety": "Sicherheit",
+    "projects": "Projekte",
+    "recent": "Aktuelle Beiträge",
+    "tags": "Stichwörter",
+    "knowladge": "„Geteiltes Wissen ist multiplizierte Kraft.“",
+    "follow": "Folgen Sie uns für mehr Updates"
+  }
 }

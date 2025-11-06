@@ -1,13 +1,17 @@
 import Container from "../../AboutUs/Container/Container.jsx"
 import experience from "../../../assets/images/experience.svg"
+import { useTranslation } from "react-i18next";
 
 const AboutWork = () => {
+
+  const { t } = useTranslation();
+
   const benefits = [
-    "Stable and long-term employment",
-    "Safe and supportive work environment", 
-    "Career growth opportunities",
-    "Training and skill development programs",
-    "Competitive salary and bonuses"
+    `${t("Career.AboutWork.benefit1")}`,
+    `${t("Career.AboutWork.benefit2")}`, 
+    `${t("Career.AboutWork.benefit3")}`,
+    `${t("Career.AboutWork.benefit4")}`,
+    `${t("Career.AboutWork.benefit5")}`
   ];
 
   return (
@@ -24,10 +28,10 @@ const AboutWork = () => {
 
           <div className="flex-1 order-2 lg:order-1">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] text-[#1D2B4F] text-center lg:text-left mb-6 lg:mb-12">
-              Why Work With Us?
+              {t("Career.AboutWork.title")}
             </h2>
             <p className="text-[#808080] text-sm md:text-base leading-relaxed mb-6 lg:mb-8 text-center lg:text-left">
-              We believe that great results come from teamwork, respect, and dedication. Our employees are the foundation of everything we build. Whether you're a welder, engineer, or construction expert, you'll have opportunities to grow, learn, and contribute to projects that make a difference.
+              {t("Career.AboutWork.text")}
             </p>
             
             <div className="space-y-4">

@@ -1,8 +1,12 @@
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 import Vector from "../../icon/Vector.svg";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+
+  const { t } = useTranslation();
+
   return (
     <footer className="bg-[#054E32] text-white py-8 sm:py-12 px-4 sm:px-6">
       <div className="max-w-7xl mx-auto">
@@ -15,8 +19,7 @@ const Footer = () => {
               <span className="text-lg sm:text-xl font-bold">SSYSTEMS MB</span>
             </div>
             <p className="text-xs sm:text-sm text-gray-300 mb-4 sm:mb-6 leading-relaxed">
-              From worn joints to complete rebuilds, our skilled welders provide
-              lasting results with professional care.
+              {t("Footer.fromWorn")}
             </p>
             <div className="flex gap-2 sm:gap-3">
               <a
@@ -50,14 +53,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">My Company</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("Footer.myCompany")}</h3>
             <ul className="space-y-2">
               <li>
                 <Link
                   to="/aboutUs"
                   className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
-                  About
+                  {t("Footer.about")}
                 </Link>
               </li>
               <li>
@@ -65,7 +68,7 @@ const Footer = () => {
                   to="/services"
                   className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
-                  Services
+                  {t("Footer.services")}
                 </Link>
               </li>
               <li>
@@ -73,21 +76,21 @@ const Footer = () => {
                   to="/contacts"
                   className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
-                  Contact Us
+                  {t("Footer.contactUs")}
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Our Resource</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("Footer.ourResource")}</h3>
             <ul className="space-y-2">
               <li>
                 <Link
                   to="/career"
                   className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
-                  Career
+                  {t("Footer.career")}
                 </Link>
               </li>
               <li>
@@ -95,14 +98,14 @@ const Footer = () => {
                   to="/blog"
                   className="text-xs sm:text-sm text-gray-300 hover:text-white transition-colors block py-1"
                 >
-                  Blog
+                  {t("Footer.blog")}
                 </Link>
               </li>
             </ul>
           </div>
 
           <div className="sm:col-span-2 lg:col-span-1">
-            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">Contact Us</h3>
+            <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("Footer.contactUs")}</h3>
             <ul className="space-y-3">
               <li className="flex items-center gap-2 text-gray-300">
                 <Phone className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
@@ -132,7 +135,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-600 pt-4 sm:pt-6">
           <p className="text-center text-xs sm:text-sm text-gray-400">
-            © 2025 SSYSTEMS MB. All rights reserved.
+            {t("Footer.copyright")}
           </p>
         </div>
       </div>

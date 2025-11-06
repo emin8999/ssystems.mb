@@ -2,18 +2,22 @@ import { useState } from "react";
 import Container from "../Container/Container"
 import employee1 from '../../../assets/images/employee1.svg'
 import employee2 from '../../../assets/images/employee2.svg'
-import employee3 from '../../../assets/images/employee3.svg'
+import employee3 from '../../../assets/images/employee3.svg';
+import { useTranslation } from "react-i18next";
 
 const OurTeam = () => {
+
+  const { t } = useTranslation();
+
   const [showAll, setShowAll] = useState(false);
 
   const allEmployees = [
-    { id: 1, img: employee1, name: "Zain Vetrovs", position: "Welding Technician" },
-    { id: 2, img: employee2, name: "Zain Vetrovs", position: "Painting Technician" },
-    { id: 3, img: employee3, name: "Zain Vetrovs", position: "Electrical Technician" },
-    { id: 4, img: employee1, name: "Zain Vetrovs", position: "Senior Technician" },
-    { id: 5, img: employee2, name: "Zain Vetrovs", position: "Installation Expert" },
-    { id: 6, img: employee3, name: "Zain Vetrovs", position: "Quality Controller" }
+    { id: 1, img: employee1, name: `${t("AboutUs.OurTeam.employee1.name")}`, position: `${t("AboutUs.OurTeam.employee1.position")}` },
+    { id: 2, img: employee2, name: `${t("AboutUs.OurTeam.employee2.name")}`, position: `${t("AboutUs.OurTeam.employee1.position")}` },
+    { id: 3, img: employee3, name: `${t("AboutUs.OurTeam.employee3.name")}`, position: `${t("AboutUs.OurTeam.employee1.position")}` },
+    { id: 4, img: employee1, name: `${t("AboutUs.OurTeam.employee4.name")}`, position: `${t("AboutUs.OurTeam.employee1.position")}` },
+    { id: 5, img: employee2, name: `${t("AboutUs.OurTeam.employee5.name")}`, position: `${t("AboutUs.OurTeam.employee1.position")}` },
+    { id: 6, img: employee3, name: `${t("AboutUs.OurTeam.employee6.name")}`, position: `${t("AboutUs.OurTeam.employee1.position")}` }
   ];
 
   const employeesToShow = showAll ? allEmployees : allEmployees.slice(0, 3);
@@ -30,10 +34,10 @@ const OurTeam = () => {
                 {/* Başlık ve Açıklama */}
                 <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-6 lg:gap-0 lg:h-[152px]">
                     <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] text-[#1D2B4F] w-full lg:max-w-[543px] text-center lg:text-left">
-                        Meet Our Awesome Team
+                        {t("AboutUs.OurTeam.title")}
                     </h3>
                     <p className="text-sm md:text-[16px] text-[#808080] w-full lg:max-w-[544px] text-center lg:text-left leading-relaxed">
-                        Each member of our team is highly skilled, experienced, and trained to handle a wide range of plumbing issues efficiently and effectively. Whether it's a simple repair or a complex installation, you can trust our team to get the job done right the first time.
+                        {t("AboutUs.OurTeam.eachMember")}
                     </p>
                 </div>
                 
@@ -65,7 +69,7 @@ const OurTeam = () => {
                       onClick={toggleShowAll}
                       className="py-2 px-6 md:py-[10px] md:px-[20px] border border-[#0ED789] rounded-[10px] text-[#0ED789] text-sm md:text-[16px] hover:bg-[#0ED789] hover:text-white transition-colors duration-300 cursor-pointer"
                     >
-                      {showAll ? "Show Less" : "View More"}
+                      {showAll ? `${t("AboutUs.OurTeam.showLess")}` : `${t("AboutUs.OurTeam.viewMore")}`}
                     </button>
                   </div>
                 )}
@@ -75,4 +79,4 @@ const OurTeam = () => {
   )
 }
 
-export default OurTeam
+export default OurTeam;

@@ -3,46 +3,45 @@ import insaat1 from '../../img/insaat1.jpg'
 import insaat2 from '../../img/insaat2.jpg'
 import insaat3 from '../../img/insaat3.jpg'
 import insaat4 from '../../img/insaat4.jpg'
+import { useTranslation } from "react-i18next";
 const BlogPage = () => {
+
+  const { t } = useTranslation();
+
     const posts = [
         {
           id: 1,
-          title: "How Welding Shapes Modern Industry",
-          description:
-            "Discover how precision welding defines the durability and safety of modern infrastructure.",
-          date: "03 Noyabr 2025",
+          title: `${t("Blog.post1.title")}`,
+          description: `${t("Blog.post1.description")}`,
+          date: `${t("Blog.post1.date")}`,
           image:insaat1,
         },
         {
           id: 2,
-          title: "Inside Our Latest Ship Repair Project",
-          description:
-            "A detailed look into how our team restored a 40-meter cargo vessel with cutting-edge methods.",
-          date: "20 Oktyabr 2025",
+          title: `${t("Blog.post2.title")}`,
+          description: `${t("Blog.post2.description")}`,
+          date: `${t("Blog.post2.date")}`,
           image:insaat2,
         },
         {
           id: 3,
-          title: "Safety First: How We Keep Every Workplace Secure",
-          description:
-            "Our commitment to maintaining high safety standards across all operations.",
-          date: "08 Sentyabr 2025",
+          title: `${t("Blog.post3.title")}`,
+          description: `${t("Blog.post3.description")}`,
+          date: `${t("Blog.post3.date")}`,
           image:insaat3,
         },
         {
           id: 4,
-          title: "Revolutionizing Construction Through Technologyyy",
-          description:
-            "Learn how automation and smart tools are transforming the construction industry.",
-          date: "28 Avqust 2025",
+          title: `${t("Blog.post4.title")}`,
+          description: `${t("Blog.post4.description")}`,
+          date: `${t("Blog.post4.date")}`,
           image:insaat4,
         },
         {
           id: 5,
-          title: "Meet the Team Behind Our Success",
-          description:
-            "Get to know the skilled engineers and technicians powering our best projects.",
-          date: "12 Avqust 2025",
+          title: `${t("Blog.post5.title")}`,
+          description: `${t("Blog.post5.description")}`,
+          date: `${t("Blog.post5.date")}`,
           image:insaat1,
         },
       ];
@@ -66,11 +65,10 @@ const BlogPage = () => {
   {/* Hero Text */}
   <div className="relative z-10 max-w-3xl mx-auto px-4">
     <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-snug drop-shadow-lg">
-      Building the Future — One Weld at a Time.
+      {t("Blog.Hero.title")}
     </h1>
     <p className="text-lg text-gray-100 max-w-2xl mx-auto">
-      News, Tips, and Real Stories from the field — welding, construction,
-      innovation, and teamwork shaping tomorrow’s infrastructure.
+      {t("Blog.Hero.text")}
     </p>
   </div>
 </section>
@@ -98,7 +96,7 @@ const BlogPage = () => {
                 <div className="flex justify-between items-center">
                   <span className="text-gray-400 text-sm">{post.date}</span>
                   <button className="text-[#054E32] font-medium hover:underline">
-                    Read More →
+                    {t("Blog.readMore")}
                   </button>
                 </div>
               </div>
@@ -110,29 +108,29 @@ const BlogPage = () => {
         <aside className="space-y-8">
           {/* 🔍 Search */}
           <div className="bg-white shadow-md rounded-2xl p-6">
-            <h4 className="font-semibold mb-3 text-[#054E32]">Search</h4>
+            <h4 className="font-semibold mb-3 text-[#054E32]">{t("Blog.search")}</h4>
             <input
               type="text"
-              placeholder="Search..."
+              placeholder={`${t("Blog.search")}...`}
               className="w-full border rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#054E32]"
             />
           </div>
 
           {/* 📂 Categories */}
           <div className="bg-white shadow-md rounded-2xl p-6">
-            <h4 className="font-semibold mb-3 text-[#054E32]">Categories</h4>
+            <h4 className="font-semibold mb-3 text-[#054E32]">{t("Blog.categories")}</h4>
             <ul className="space-y-2 text-gray-700">
-              <li className="hover:text-[#054E32] cursor-pointer">Welding</li>
-              <li className="hover:text-[#054E32] cursor-pointer">Construction</li>
-              <li className="hover:text-[#054E32] cursor-pointer">Repair</li>
-              <li className="hover:text-[#054E32] cursor-pointer">Safety</li>
-              <li className="hover:text-[#054E32] cursor-pointer">Projects</li>
+              <li className="hover:text-[#054E32] cursor-pointer">{t("Blog.welding")}</li>
+              <li className="hover:text-[#054E32] cursor-pointer">{t("Blog.construction")}</li>
+              <li className="hover:text-[#054E32] cursor-pointer">{t("Blog.repair")}</li>
+              <li className="hover:text-[#054E32] cursor-pointer">{t("Blog.safety")}</li>
+              <li className="hover:text-[#054E32] cursor-pointer">{t("Blog.projects")}</li>
             </ul>
           </div>
 
           {/* 🕒 Recent Posts */}
           <div className="bg-white shadow-md rounded-2xl p-6">
-            <h4 className="font-semibold mb-3 text-[#054E32]">Recent Posts</h4>
+            <h4 className="font-semibold mb-3 text-[#054E32]">{t("Blog.recent")}</h4>
             <ul className="space-y-2 text-gray-700 text-sm">
               {posts.slice(0, 4).map((post) => (
                 <li
@@ -147,7 +145,7 @@ const BlogPage = () => {
 
           {/* 🏷 Tag Cloud */}
           <div className="bg-white shadow-md rounded-2xl p-6">
-            <h4 className="font-semibold mb-3 text-[#054E32]">Tags</h4>
+            <h4 className="font-semibold mb-3 text-[#054E32]">{t("Blog.tags")}</h4>
             <div className="flex flex-wrap gap-2">
               {tags.map((tag, i) => (
                 <span
@@ -165,10 +163,10 @@ const BlogPage = () => {
       <section className="flex justify-center py-20 bg-gray-50">
   <div className="bg-[#0ED789] text-white max-w-3xl w-full mx-4 rounded-2xl shadow-xl text-center p-10 transform ">
     <p className="text-2xl italic mb-6 font-medium">
-      “Knowledge shared is power multiplied.”
+      {t("Blog.knowladge")}
     </p>
     <button className="bg-white text-[#0ED789] px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-100 transition-all duration-300">
-      Follow Us for More Updates
+      {t("Blog.follow")}
     </button>
   </div>
 </section>

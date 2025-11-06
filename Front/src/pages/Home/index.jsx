@@ -17,43 +17,47 @@ import Start from "../../icon/star.svg";
 import Marvin from "../../img/Martvin.jpg";
 import SonImg from "../../img/Son.svg";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 function index() {
+
+  const { t } = useTranslation();
+  
   const cardsData = [
     {
       id: 1,
       img: TemirIcon,
-      title: "Sewer Line Inspection and Repair",
-      text: "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether i",
+      title: `${t("HomePage.Extensive.card1.title")}`,
+      text: `${t("HomePage.Extensive.card1.text")}`,
     },
     {
       id: 2,
       img: CantaIcon,
-      title: "Water Heater Services",
-      text: "A malfunctioning water heater can disrupt your daily routine and leave you without hot water when you need it most. Our water heater services encom",
+      title: `${t("HomePage.Extensive.card2.title")}`,
+      text: `${t("HomePage.Extensive.card2.text")}`,
     },
     {
       id: 3,
       img: elektirikIcon,
-      title: "Precision Welding Services",
-      text: "Our team provides reliable welding and design services for all types of metal projects — from custom fabrication and repairs to industrial structures and creati",
+      title: `${t("HomePage.Extensive.card3.title")}`,
+      text: `${t("HomePage.Extensive.card3.text")}`,
     },
     {
       id: 4,
       img: gemiIcon,
-      title: "Marine Engineering Solutions",
-      text: "When your vessel needs urgent attention, you need skilled and reliable ship repair experts. Our team provides professional marine repair and maintena",
+      title: `${t("HomePage.Extensive.card4.title")}`,
+      text: `${t("HomePage.Extensive.card4.text")}`,
     },
     {
       id: 5,
       img: TemirIcon,
-      title: "Quality Painting Services",
-      text: "We offer professional interior and exterior painting services using high-quality materials and precise techniques. Whether it’s a single room or an entire b",
+      title: `${t("HomePage.Extensive.card5.title")}`,
+      text: `${t("HomePage.Extensive.card5.text")}`,
     },
     {
       id: 6,
       img: TemirIcon,
-      title: "Sewer Line Inspection and Repair",
-      text: "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether i",
+      title: `${t("HomePage.Extensive.card6.title")}`,
+      text: `${t("HomePage.Extensive.card6.text")}`,
     },
   ];
 
@@ -72,7 +76,7 @@ function index() {
             className="text-[28px] sm:text-[40px] md:text-[50px] lg:text-[64px]
       leading-[38px] sm:leading-[50px] md:leading-[60px] lg:leading-[70px] font-medium"
           >
-            Your Trusted Repairing Solution
+            {t("HomePage.Solutions.title")}
           </h1>
 
           <p
@@ -80,21 +84,18 @@ function index() {
             className="text-[14px] sm:text-[15px] md:text-[16px] mt-4 mb-8 sm:mb-[50px]
       text-[#E8E8E8] max-w-[600px] mx-auto sm:mx-0"
           >
-            Welcome to SSYSTEMS MB, your go-to destination for all your
-            repairing needs. From quick touch-ups to complete rebuilds, our
-            skilled welders ensure strength, quality, and perfection in every
-            project.
+            {t("HomePage.Solutions.welcome")}
           </p>
 
           <div className="flex justify-center sm:justify-start gap-4">
             <button className="bg-[#0ED789] w-[118px] h-[44px] rounded-xl text-white font-medium transition-all duration-300 hover:bg-[#0ACF83] hover:scale-105">
-              Trying Now
+              {t('HomePage.Solutions.tryingNow')}
             </button>
             <Link
               to="/services"
               className="bg-transparent border border-[#0ED789] text-[#0ACF83] w-[118px] h-[44px] rounded-xl font-medium transition-all duration-300 hover:bg-[#0ED789] hover:text-white hover:scale-105 inline-flex items-center justify-center"
             >
-              Learn More
+              {t('HomePage.Solutions.learnMore')}
             </Link>
           </div>
         </div>
@@ -119,11 +120,12 @@ function index() {
             style={{ fontStyle: "Medium" }}
             className="text-[64px] font-[500] sm:text-[32px] md:text-[64px] leading-tight"
           >
-            Extensive Repair Solutions
+            {t("HomePage.Extensive.title")}
           </h1>
           <p className="text-[16px] font-[400] text-[#00000080] sm:text-[14px]">
-            From routine maintenance to emergency repairs, our licensed plumbers{" "}
-            <br /> are equipped to handle any job with efficiency and precision.
+            {t("HomePage.Extensive.fromRoutine1")}
+            <br />
+            {t("HomePage.Extensive.fromRoutine2")}
           </p>
         </div>
 
@@ -188,13 +190,10 @@ function index() {
 
         <div className="text w-full md:w-1/2 lg:w-[500px] text-center md:text-left">
           <h1 className="text-[32px] md:text-[48px] lg:text-[64px] font-semibold leading-tight">
-            Serving Your Area and Beyond
+            {t("HomePage.Beyond.title")}
           </h1>
           <p className="text-[15px] md:text-[16px] text-[#808080] font-[400] mt-4">
-            SSYSTEMS MB proudly serves customers in Lithuania and its
-            surrounding regions, providing prompt and reliable repairing
-            solutions to homes and businesses alike. Whether you're located in
-            the heart of the city or in the outskirts, we're here to assist you.
+            {t("HomePage.Beyond.text")}
           </p>
           <img className="mt-7 mx-auto md:mx-0 ml-3" src={Img117} alt="" />
           <div className="mt-6 flex justify-center md:justify-start">
@@ -213,12 +212,12 @@ function index() {
       >
         <div className="top">
           <h1 className="text-[28px] md:text-[48px] lg:text-[64px] font-semibold leading-tight text-center">
-            Book your service in 3 easy steps
+            {t("HomePage.Book.title")}
           </h1>
           <p className="text-[15px] md:text-[16px] text-[#808080] font-[400] mt-4 text-center">
-            Easy Steps to Get Started section simplifies the process of booking{" "}
+            {t("HomePage.Book.easySteps1")}{" "}
             <br className="hidden md:block" />
-            and receiving repairing services.
+            {t("HomePage.Book.easySteps2")}
           </p>
         </div>
 
@@ -244,11 +243,10 @@ function index() {
               className="w-[100px] md:w-[120px] lg:w-auto"
             />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
-              Choose Your Repairing Service
+              {t("HomePage.Book.card1.title")}
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#00000080] mt-5">
-              You can browse through our range of repairing services tailored to
-              address various issues in your home or office.
+              {t("HomePage.Book.card1.text")}
             </p>
           </div>
 
@@ -265,11 +263,10 @@ function index() {
               className="w-[100px] md:w-[120px] lg:w-auto"
             />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
-              Schedule Your Service
+              {t("HomePage.Book.card2.title")}
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#00000080] mt-5">
-              Use our online booking system or call our hotline to schedule a
-              service appointment that fits your schedule.
+              {t("HomePage.Book.card2.text")}
             </p>
           </div>
 
@@ -286,11 +283,10 @@ function index() {
               className="w-[100px] md:w-[120px] lg:w-auto"
             />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
-              Job Completion and Satisfaction
+              {t("HomePage.Book.card3.title")}
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#00000080] mt-5">
-              Once the job is completed to your satisfaction, our masters will
-              clean up the work area and provide.
+              {t("HomePage.Book.card3.text")}
             </p>
           </div>
         </div>
@@ -314,13 +310,10 @@ function index() {
     "
         >
           <h1 className="text-[32px] md:text-[48px] lg:text-[64px] font-semibold leading-tight mb-5">
-            Expert Masters <br className="hidden md:block" /> at Your Service
+            {t("HomePage.Expert.title1")} <br className="hidden md:block" /> {t("HomePage.Expert.title2")}
           </h1>
           <p className="text-[15px] md:text-[16px] text-[#808080] md:w-[450px] lg:w-[500px]">
-            Each member of our team is highly skilled, experienced, and trained
-            to handle a wide range of plumbing issues efficiently and
-            effectively. Whether it's a simple repair or a complex installation,
-            you can trust our team to get the job done right the first time.
+            {t("HomePage.Expert.eachMember")}
           </p>
         </div>
 
@@ -336,30 +329,30 @@ function index() {
           <div className="card w-full sm:w-[300px] md:w-[330px] lg:w-[352px] flex flex-col items-center text-center">
             <img src={Expert3} alt="" className="w-[80%] md:w-auto" />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
-              Zain Vetrovs
+              {t("HomePage.Expert.card1.name")}
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#808080] mt-1">
-              Welding Technician
+              {t("HomePage.Expert.card1.job")}
             </p>
           </div>
 
           <div className="card w-full sm:w-[300px] md:w-[330px] lg:w-[352px] flex flex-col items-center text-center">
             <img src={Expert2} alt="" className="w-[80%] md:w-auto" />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
-              Zain Vetrovs
+              {t("HomePage.Expert.card2.name")}
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#808080] mt-1">
-              Painting Technician
+              {t("HomePage.Expert.card2.job")}
             </p>
           </div>
 
           <div className="card w-full sm:w-[300px] md:w-[330px] lg:w-[352px] flex flex-col items-center text-center">
             <img src={Expert3} alt="" className="w-[80%] md:w-auto" />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
-              Zain Vetrovs
+              {t("HomePage.Expert.card3.name")}
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#808080] mt-1">
-              Electrical Technician
+              {t("HomePage.Expert.card3.job")}
             </p>
           </div>
         </div>
@@ -367,11 +360,10 @@ function index() {
       <section className="w-full flex flex-col items-center mt-[100px]  md:px-20 sm:px-4">
         <div className="text-center mb-10 px-2 sm:px-0">
           <h1 className="text-[64px] font-bold mb-4 sm:text-[28px] md:text-[64px] leading-tight">
-            What Our Customers Say
+            {t("HomePage.Customers.title")}
           </h1>
           <p className="text-[#808080] text-[16px] sm:text-[14px] max-w-[600px] mx-auto">
-            Don’t just take our word for it — hear what our satisfied customers
-            have to say about their experience with SSYSTEMS MB.
+            {t("HomePage.Customers.text")}
           </p>
         </div>
 
@@ -385,10 +377,10 @@ function index() {
               />
               <div>
                 <h3 className="font-semibold text-[16px] sm:text-[14px]">
-                  Marvin McKinney
+                  {t("HomePage.Customers.card1.name")}
                 </h3>
                 <p className="text-[14px] sm:text-[12px] text-[#808080]">
-                  CEO of XXX Company
+                  {t("HomePage.Customers.card1.job")}
                 </p>
               </div>
             </div>
@@ -400,10 +392,7 @@ function index() {
               <img src={Start} alt="star" />
             </div>
             <p className="text-[15px] sm:text-[14px] text-[#808080] leading-relaxed">
-              I was impressed by the professionalism and efficiency of the
-              SSYSTEMS MB team. They arrived on time, diagnosed the issue
-              quickly, and resolved it with minimal disruption. Highly
-              recommended!
+              {t("HomePage.Customers.card1.comment")}
             </p>
           </div>
 
@@ -416,10 +405,10 @@ function index() {
               />
               <div>
                 <h3 className="font-semibold text-[16px] sm:text-[14px]">
-                  Marvin McKinney
+                  {t("HomePage.Customers.card2.name")}
                 </h3>
                 <p className="text-[14px] sm:text-[12px] text-[#808080]">
-                  CEO of XXX Company
+                  {t("HomePage.Customers.card2.job")}
                 </p>
               </div>
             </div>
@@ -431,10 +420,7 @@ function index() {
               <img src={Start} alt="star" />
             </div>
             <p className="text-[15px] sm:text-[14px] text-[#808080] leading-relaxed">
-              I was impressed by the professionalism and efficiency of the
-              SSYSTEMS MB team. They arrived on time, diagnosed the issue
-              quickly, and resolved it with minimal disruption. Highly
-              recommended!
+              {t("HomePage.Customers.card2.comment")}
             </p>
           </div>
         </div>
@@ -452,22 +438,20 @@ function index() {
 
           <div className="w-full md:w-1/2 text-white">
             <h1 className="text-2xl sm:text-3xl md:text-[64px] font-semibold mb-4">
-              Ready to Experience <br /> Quality Services
+              {t("HomePage.QualityServices.title1")} <br /> {t("HomePage.QualityServices.title2")}
             </h1>
             <p className="text-sm sm:text-base mb-6">
-              Take the first step towards resolving your issues by contacting us
-              today. Our team of skilled professionals is ready to assist you
-              with all your repairing needs.
+              {t("HomePage.QualityServices.take")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-12">
               {/* Contact Us button */}
               <button className="bg-white text-green-500 px-4 py-2 rounded-lg font-medium shadow-sm transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-md">
-                <a href="/contacts">Contact Us</a>
+                <a href="/contacts">{t("HomePage.QualityServices.contactUs")}</a>
               </button>
 
               {/* Learn More button */}
               <button className="border border-white text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-white hover:text-green-500 hover:scale-105 hover:shadow-md">
-                <a href="/services">Learn More</a>
+                <a href="/services">{t("HomePage.QualityServices.learnMore")}</a>
               </button>
             </div>
           </div>

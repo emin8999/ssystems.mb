@@ -1,6 +1,10 @@
-import Container from "../../AboutUs/Container/Container.jsx"
+import Container from "../../AboutUs/Container/Container.jsx";
+import { useTranslation } from "react-i18next";
 
 const ClosingMessage = () => {
+
+  const { t } = useTranslation();
+
   return (
     <section className="mt-8 md:mt-12 lg:mt-16 xl:mt-[100px]">
       <Container>
@@ -17,13 +21,13 @@ const ClosingMessage = () => {
             </div>
             
             <blockquote className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-medium leading-tight sm:leading-snug mb-6 sm:mb-8 max-w-4xl mx-auto">
-              "Together, we build not just structures — we build trust."
+              "{t("Career.Closing.title")}"
             </blockquote>
 
             <div className="w-20 h-1 bg-[#0ED789] mx-auto mb-6 sm:mb-8"></div>
             
             <p className="text-[#E8F5E8] text-sm sm:text-base md:text-lg opacity-90 max-w-2xl mx-auto">
-              Join us in creating lasting impact through quality craftsmanship and unwavering reliability.
+              {t("Career.Closing.join")}
             </p>
           </div>
         </div>

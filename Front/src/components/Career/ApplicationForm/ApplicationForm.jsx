@@ -1,7 +1,11 @@
 import { useState } from "react";
-import Container from "../../AboutUs/Container/Container.jsx"
+import Container from "../../AboutUs/Container/Container.jsx";
+import { useTranslation } from "react-i18next";
 
 const ApplicationForm = () => {
+
+  const { t } = useTranslation();
+
   const [formData, setFormData] = useState({
     fullName: "",
     phone: "",
@@ -16,21 +20,21 @@ const ApplicationForm = () => {
   const jobs = [
     {
       id: 1,
-      title: "Welder",
-      type: "Full-time / On-site",
-      description: "Experience with MIG, TIG, and stick welding required."
+      title: `${t("Career.OpenPositions.job1.title")}`,
+      type: `${t("Career.OpenPositions.job1.type")}`,
+      description: `${t("Career.OpenPositions.job1.description")}`
     },
     {
       id: 2,
-      title: "Construction Worker",
-      type: "Full-time / Project-based",
-      description: "Knowledge of modern tools and safety procedures is a must."
+      title: `${t("Career.OpenPositions.job2.title")}`,
+      type: `${t("Career.OpenPositions.job2.type")}`,
+      description: `${t("Career.OpenPositions.job2.description")}`
     },
     {
       id: 3,
-      title: "Ship Repair Technician",
-      type: "Full-time",
-      description: "Work in port area; technical education preferred."
+      title: `${t("Career.OpenPositions.job3.title")}`,
+      type: `${t("Career.OpenPositions.job3.type")}`,
+      description: `${t("Career.OpenPositions.job3.description")}`
     }
   ];
 
@@ -85,16 +89,16 @@ const ApplicationForm = () => {
       <Container>
         <div className="w-full">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-[64px] text-[#1D2B4F] text-center mb-4 sm:mb-6 md:mb-8 lg:mb-10 xl:mb-12">
-            Submit Your Application
+            {t("Career.ApplicationForm.title")}
           </h2>
 
           <p className="text-[#808080] text-center text-sm sm:text-base mb-6 sm:mb-8 md:mb-10 lg:mb-12 max-w-2xl mx-auto px-2 sm:px-4">
-            Send us your details and we'll get back to you. We're always excited to meet professionals who are passionate about what they do.
+            {t("Career.ApplicationForm.text")}
           </p>
 
           {isSubmitted && (
             <div className="mb-4 sm:mb-6 p-3 sm:p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg sm:rounded-xl text-center text-sm sm:text-base">
-              ✅ Application submitted successfully! We'll contact you soon.
+              {t("Career.ApplicationForm.applicationSubmitted")}
             </div>
           )}
 
@@ -111,7 +115,7 @@ const ApplicationForm = () => {
                 type="submit"
                 className="py-3 px-8 bg-[#0ED789] rounded-[10px] text-white cursor-pointer font-semibold hover:bg-[#0dc57a] transition-colors text-base w-full sm:w-auto text-center"
               >
-                Send Application
+                {t("Career.ApplicationForm.send")}
               </button>
             </div>
           </form>
@@ -122,10 +126,13 @@ const ApplicationForm = () => {
 };
 
 const FormFields = ({ formData, jobs, onInputChange, onFileChange }) => {
+
+  const { t } = useTranslation();
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 md:gap-6">
       <FormInput
-        label="Full Name *"
+        label={`${t("Career.ApplicationForm.name")}`}
         name="fullName"
         type="text"
         value={formData.fullName}
@@ -134,7 +141,7 @@ const FormFields = ({ formData, jobs, onInputChange, onFileChange }) => {
       />
 
       <FormInput
-        label="Phone Number *"
+        label={`${t("Career.ApplicationForm.phone")}`}
         name="phone"
         type="tel"
         value={formData.phone}
@@ -143,7 +150,7 @@ const FormFields = ({ formData, jobs, onInputChange, onFileChange }) => {
       />
 
       <FormInput
-        label="Email Address *"
+        label={`${t("Career.ApplicationForm.email")}`}
         name="email"
         type="email"
         value={formData.email}
@@ -152,7 +159,7 @@ const FormFields = ({ formData, jobs, onInputChange, onFileChange }) => {
       />
 
       <div>
-        <label className="block text-[#1D2B4F] text-sm sm:text-base mb-2">Position Applied For *</label>
+        <label className="block text-[#1D2B4F] text-sm sm:text-base mb-2">{t("Career.ApplicationForm.position")}</label>
         <select
           name="position"
           value={formData.position}
@@ -160,7 +167,7 @@ const FormFields = ({ formData, jobs, onInputChange, onFileChange }) => {
           required
           className="w-full px-4 py-3 border border-gray-300 rounded-[10px] focus:outline-none focus:border-[#0ED789] transition-colors text-sm sm:text-base"
         >
-          <option value="">Select a position</option>
+          <option value="">{t("Career.ApplicationForm.select")}</option>
           {jobs.map((job) => (
             <option key={job.id} value={job.title}>{job.title}</option>
           ))}
@@ -168,7 +175,7 @@ const FormFields = ({ formData, jobs, onInputChange, onFileChange }) => {
       </div>
 
       <div className="md:col-span-2">
-        <label className="block text-[#1D2B4F] text-sm sm:text-base mb-2">Upload Resume (optional)</label>
+        <label className="block text-[#1D2B4F] text-sm sm:text-base mb-2">{t("Career.ApplicationForm.upload")}</label>
         <input
           type="file"
           accept=".pdf,.doc,.docx"
@@ -176,19 +183,19 @@ const FormFields = ({ formData, jobs, onInputChange, onFileChange }) => {
           className="w-full px-4 py-3 border border-gray-300 rounded-[10px] focus:outline-none focus:border-[#0ED789] transition-colors text-sm"
         />
         {formData.resume && (
-          <p className="text-sm text-[#0ED789] mt-2">Selected file: {formData.resume.name}</p>
+          <p className="text-sm text-[#0ED789] mt-2">{t("Career.ApplicationForm.selectedFile")} {formData.resume.name}</p>
         )}
       </div>
 
       <div className="md:col-span-2">
-        <label className="block text-[#1D2B4F] text-sm sm:text-base mb-2">Message / Cover Letter</label>
+        <label className="block text-[#1D2B4F] text-sm sm:text-base mb-2">{t("Career.ApplicationForm.message")}</label>
         <textarea
           name="message"
           value={formData.message}
           onChange={onInputChange}
           rows="5"
           className="w-full px-4 py-3 border border-gray-300 rounded-[10px] focus:outline-none focus:border-[#0ED789] transition-colors resize-vertical text-sm sm:text-base"
-          placeholder="Tell us about yourself and why you're interested in this position..."
+          placeholder={`${t("Career.ApplicationForm.tellUs")}`}
         ></textarea>
       </div>
     </div>
