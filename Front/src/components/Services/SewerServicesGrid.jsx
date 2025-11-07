@@ -1,4 +1,9 @@
 import { useTranslation } from "react-i18next";
+import sewerLine from "../../assets/images/sewerLine.png";
+import waterHeater from "../../assets/images/waterHeater.png";
+import marine from "../../assets/images/marine.png"
+import precision from "../../assets/images/precision.png"
+import painting from "../../assets/images/painting.png"
 
 export default function SewerServicesGrid() {
 
@@ -9,49 +14,36 @@ export default function SewerServicesGrid() {
       id: 1,
       title: `${t("Service.SewerServices.service1.title")}`,
       description: `${t("Service.SewerServices.service1.description")}`,
-      image:
-        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
+      image: sewerLine,
       imagePosition: "left",
     },
     {
       id: 2,
       title: `${t("Service.SewerServices.service2.title")}`,
       description: `${t("Service.SewerServices.service2.description")}`,
-      image:
-        "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+      image: waterHeater,
       imagePosition: "right",
     },
     {
       id: 3,
       title: `${t("Service.SewerServices.service3.title")}`,
       description: `${t("Service.SewerServices.service3.description")}`,
-      image:
-        "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+      image: marine,
       imagePosition: "left",
     },
     {
       id: 4,
       title: `${t("Service.SewerServices.service4.title")}`,
       description:`${t("Service.SewerServices.service4.description")}`,
-      image:
-        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
+      image: precision,
       imagePosition: "right",
     },
     {
       id: 5,
       title: `${t("Service.SewerServices.service5.title")}`,
       description:`${t("Service.SewerServices.service5.description")}`,
-      image:
-        "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+      image: painting,
       imagePosition: "left",
-    },
-    {
-      id: 6,
-      title: `${t("Service.SewerServices.service6.title")}`,
-      description:`${t("Service.SewerServices.service6.description")}`,
-      image:
-        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
-      imagePosition: "right",
     },
   ];
 

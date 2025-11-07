@@ -16,6 +16,8 @@ import Expert3 from "../../img/Expert3.svg";
 import Start from "../../icon/star.svg";
 import Marvin from "../../img/Martvin.jpg";
 import SonImg from "../../img/Son.svg";
+import serviceArea from "../../assets/images/serviceArea1.png";
+import quality from "../../assets/images/quality1.png";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 function index() {
@@ -181,9 +183,9 @@ function index() {
       >
         <div className="image w-full md:w-1/2 flex justify-center md:justify-start">
           <img
-            src={Frame1}
+            src={serviceArea}
             alt=""
-            className="w-[90%] md:w-[100%] lg:w-auto object-contain"
+            className="w-[90%] md:w-[100%] lg:w-auto object-contain rounded-[20px] lg:rounded-[30px]"
           />
         </div>
 
@@ -429,7 +431,7 @@ function index() {
         <div className="bg-[#0ED789] rounded-xl p-6 sm:p-8 md:flex md:items-center md:gap-8">
           <div className="w-full md:w-1/2 mb-6 md:mb-0">
             <img
-              src={SonImg}
+              src={quality}
               alt="Service"
               className="rounded-lg w-full h-auto object-cover"
             />

@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Container from "../Container/Container"
-import experience from '../../../assets/images/experience.svg';
+import experiencedCompany from "../../../assets/images/experiencedCompany1.png";
 import { useTranslation } from "react-i18next";
 
 const AnimatedCounter = ({ end, duration = 2000, suffix = "+" }) => {
@@ -59,9 +59,9 @@ const Experience = () => {
             <div className="flex flex-col xl:flex-row gap-8 xl:gap-[27px] font-inter items-center xl:items-start">
                 <div className="w-full xl:w-auto flex justify-center xl:block">
                     <img 
-                        src={experience} 
+                        src={experiencedCompany} 
                         alt="experience" 
-                        className="max-w-[280px] sm:max-w-[350px] md:max-w-[400px] xl:max-w-none xl:w-auto"
+                        className="max-w-[280px] sm:max-w-[350px] md:max-w-[400px] xl:max-w-none xl:w-auto rounded-[20px] lg:max-w-[549px] lg:h-[800px]"
                     />
                 </div>
                 
