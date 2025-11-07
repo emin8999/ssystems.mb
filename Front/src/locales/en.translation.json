@@ -122,7 +122,9 @@
   "AboutUs": {
     "Header": {
       "aboutUs": "About Us",
-      "text": "SSYSTEMS MB proudly serves customers in Lithuania and its surrounding regions, providing prompt and reliable repairing solutions to homes and businesses alike. Whether you're located in the heart of the city or in the outskirts, we're here to assist you."
+      "text": "SSYSTEMS MB proudly serves customers in Lithuania and its surrounding regions, providing prompt and reliable repairing solutions to homes and businesses alike. Whether you're located in the heart of the city or in the outskirts, we're here to assist you.",
+      "companyCode" : "306078770",
+      "vatNumber": "LT100015246117"
     },
     "Experience": {
       "title": "Experienced and Trusted by people",
@@ -216,20 +218,16 @@
         "description": "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply."
       },
       "service3": {
-        "title": "Water Heater Services",
-        "description": "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply."
+        "title": "Marine Engineering Solutions",
+        "description": "When your vessel needs urgent attention, you need skilled and reliable ship repair experts.Our team provides professional marine repair and maintenance services — from hull and structural welding to engine work and system upgrades. We ensure your ship stays seaworthy, safe, and ready to perform at its best."
       },
       "service4": {
-        "title": "Sewer Line Inspection and Repair",
-        "description": "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages."
+        "title": "Precision Welding Services",
+        "description": "Our team provides reliable welding and design services for all types of metal projects — from custom fabrication and repairs to industrial structures and creative designs. We deliver strong, clean, and lasting welds that bring your ideas to life with precision and quality craftsmanship."
       },
       "service5": {
-        "title": "Water Heater Services",
-        "description": "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply."
-      },
-      "service6": {
-        "title": "Sewer Line Inspection and Repair",
-        "description": "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages."
+        "title": "Quality Painting Services",
+        "description": "We offer professional interior and exterior painting services using high-quality materials and precise techniques. Whether it’s a single room or an entire building, we deliver smooth, vibrant, and lasting results that transform your space."
       },
       "learnMore":"Learn More "
     },

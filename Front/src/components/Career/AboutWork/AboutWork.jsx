@@ -1,5 +1,5 @@
 import Container from "../../AboutUs/Container/Container.jsx"
-import experience from "../../../assets/images/experience.svg"
+import office from "../../../assets/images/office.png"
 import { useTranslation } from "react-i18next";
 
 const AboutWork = () => {
@@ -20,9 +20,9 @@ const AboutWork = () => {
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-[70px] items-center">
           <div className="flex-1 flex items-center justify-center order-1 lg:order-2">
             <img 
-              src={experience} 
+              src={office} 
               alt="Experience illustration" 
-              className="w-full h-auto max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-none object-contain"
+              className="w-full h-auto max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-none object-contain rounded-[20px] lg:rounded-[30px]"
             />
           </div>
 

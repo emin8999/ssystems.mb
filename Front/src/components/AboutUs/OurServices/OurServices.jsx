@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Container from "../Container/Container"
 import worker from '../../../assets/images/worker.svg';
+import ourServices from "../../../assets/images/ourServices.png"
 import { useTranslation } from "react-i18next";
 
 const OurServices = () => {
@@ -13,9 +14,9 @@ const OurServices = () => {
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-[70px] bg-[#0ED789] rounded-2xl lg:rounded-[20px] py-8 lg:py-[50px] px-6 lg:px-[50px] text-white items-center w-full min-h-[300px] lg:min-h-[460px]">
                 <div className="flex-shrink-0 flex justify-center lg:block">
                     <img 
-                        src={worker} 
+                        src={ourServices} 
                         alt="worker" 
-                        className="h-[200px] sm:h-[280px] lg:h-[360px] w-auto object-contain"
+                        className="h-[200px] sm:h-[280px] lg:h-[360px] w-auto object-contain rounded-[20px] lg:rounded-[30px]"
                     />
                 </div>
 

@@ -1,6 +1,6 @@
 import { Phone, Mail, MapPin, Facebook, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
-import Vector from "../../icon/Vector.svg";
+import ssystems from "../../assets/images/ssystms.png";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
@@ -12,9 +12,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-6 sm:mb-8">
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center gap-2 ">
               <div className="w-10 h-10 flex items-center justify-center">
-                <img src={Vector} alt="SSYSTEMS MB Logo" className="h-9" />
+                <img src={ssystems} alt="SSYSTEMS MB Logo" className="w-full" />
               </div>
               <span className="text-lg sm:text-xl font-bold">SSYSTEMS MB</span>
             </div>

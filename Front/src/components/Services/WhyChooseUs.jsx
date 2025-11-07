@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="w-full bg-gray-50 py-16">
+    <section className="w-full py-16">
       <div className="max-w-[1240px] mx-auto px-[5%] md:px-[2.8%]">
         <h2
           className="font-bold text-center text-[#101010] mb-16 leading-tight"
