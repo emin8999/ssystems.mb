@@ -5,9 +5,11 @@ import georga from "../../icon/georga.png";
 import russia from "../../icon/russian.png";
 import Lituan from "../../icon/Lituan.png";
 import german from "../../icon/german.png";
+import { useTranslation } from "react-i18next";
 
 export default function LanguageDropdown() {
   const [open, setOpen] = useState(false);
+  const { t } = useTranslation();
   const [selected, setSelected] = useState({
     code: "Eng",
     label: "England",

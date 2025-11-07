@@ -9,12 +9,12 @@ const Header = () => {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const navLinks = [
-    { to: "/", label: "Home" },
-    { to: "/aboutUs", label: "About Us" },
-    { to: "/services", label: "Service" },
-    { to: "/contacts", label: "Contact" },
-  ];
+const navLinks = [
+  { to: "/", label: t("Header.home") },
+  { to: "/aboutUs", label: t("Header.aboutUs") },
+  { to: "/services", label: t("Header.service") },
+  { to: "/contacts", label: t("Header.contact") },
+];
 
   return (
     <header className="w-full bg-[#054E32] text-white shadow-sm">
