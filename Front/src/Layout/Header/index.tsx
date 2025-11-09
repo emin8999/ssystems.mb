@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react"; // 🔹 useEffect əlavə olundu
 import { Link, NavLink } from "react-router-dom";
 import { FiPhone, FiMenu, FiX } from "react-icons/fi";
 import LanguageDropdown from "./LanguageDropdown";
@@ -9,14 +9,27 @@ const Header = () => {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
 
-const navLinks = [
-  { to: "/", label: t("Header.home") },
-  { to: "/aboutUs", label: t("Header.aboutUs") },
-  { to: "/services", label: t("Header.service") },
-  { to: "/contacts", label: t("Header.contact") },
-  { to: "/blog", label: t("Header.blog") },
-  { to: "/career", label: t("Header.career") },
-];
+  // 🔹 Scroll problemi üçün fix:
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [menuOpen]);
+  // 🔹 Bura qədər əlavədir
+
+  const navLinks = [
+    { to: "/", label: t("Header.home") },
+    { to: "/aboutUs", label: t("Header.aboutUs") },
+    { to: "/services", label: t("Header.service") },
+    { to: "/contacts", label: t("Header.contact") },
+    { to: "/blog", label: t("Header.blog") },
+    { to: "/career", label: t("Header.career") },
+  ];
 
   return (
     <header className="w-full bg-[#054E32] text-white shadow-sm">
