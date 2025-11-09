@@ -11,8 +11,9 @@ import Img117 from "../../icon/Frame 1171276024.svg";
 import Book1 from "../../icon/Book1.svg";
 import Book2 from "../../icon/Book2.svg";
 import Book3 from "../../icon/Book3.svg";
-import Expert2 from "../../img/Expert2.svg";
-import Expert3 from "../../img/Expert3.svg";
+import employee3 from '../../../src/assets/images/employee3.jpg';
+import employee1 from '../../../src/assets/images/employee1.jpeg'
+import employee2 from '../../../src/assets/images/employee2.jpeg'
 import Start from "../../icon/star.svg";
 import Marvin from "../../img/Martvin.jpg";
 import SonImg from "../../img/Son.svg";
@@ -89,9 +90,6 @@ function index() {
           </p>
 
           <div className="flex justify-center  sm:justify-start gap-4">
-              <button className="bg-[#0ED789] w-[118px] h-[44px] rounded-xl text-white font-medium transition-all duration-300 hover:bg-[#0ACF83] hover:scale-105">
-                {t("HomePage.Solutions.tryingNow")}
-              </button>
               <Link
                 to="/services"
                 className="bg-transparent border   border-[#0ED789] text-[#0ACF83] w-[118px] h-[44px] rounded-xl font-medium transition-all duration-300 hover:bg-[#0ED789] hover:text-white hover:scale-105 inline-flex items-center justify-center"
@@ -165,9 +163,7 @@ function index() {
         </div>
 
         {/* Button - cards-dan ayrı */}
-        <div className="flex justify-center mb-16 px-4">
-          <Button />
-        </div>
+   
       </section>
 
       <section
@@ -197,9 +193,12 @@ function index() {
             {t("HomePage.Beyond.text")}
           </p>
           <img className="mt-7 mx-auto md:mx-0 ml-3" src={Img117} alt="" />
-          <div className="mt-6 flex justify-center md:justify-start">
-            <Button />
-          </div>
+          <Link to="/services">
+  <Button className="mt-6 flex justify-center md:justify-start">
+    Hizmetler
+  </Button>
+</Link>
+
         </div>
       </section>
 
@@ -328,7 +327,7 @@ function index() {
     "
         >
           <div className="card w-full sm:w-[300px] md:w-[330px] lg:w-[352px] flex flex-col items-center text-center">
-            <img src={Expert3} alt="" className="w-[80%] md:w-auto" />
+            <img src={employee3} alt=""   className="w-[280px] h-[320px] md:w-[320px] md:h-[360px] object-cover rounded-2xl shadow-md" />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
               {t("HomePage.Expert.card1.name")}
             </h1>
@@ -338,7 +337,7 @@ function index() {
           </div>
 
           <div className="card w-full sm:w-[300px] md:w-[330px] lg:w-[352px] flex flex-col items-center text-center">
-            <img src={Expert2} alt="" className="w-[80%] md:w-auto" />
+            <img src={employee2} alt=""   className="w-[280px] h-[320px] md:w-[320px] md:h-[360px] object-cover rounded-2xl shadow-md" />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
               {t("HomePage.Expert.card2.name")}
             </h1>
@@ -348,9 +347,9 @@ function index() {
           </div>
 
           <div className="card w-full sm:w-[300px] md:w-[330px] lg:w-[352px] flex flex-col items-center text-center">
-            <img src={Expert3} alt="" className="w-[80%] md:w-auto" />
+            <img src={employee1} alt=""   className="w-[280px] h-[320px] md:w-[320px] md:h-[360px] object-cover rounded-2xl shadow-md" />
             <h1 className="text-[18px] md:text-[20px] font-[500] mt-5">
-              {t("HomePage.Expert.card3.name")}
+            {t("HomePage.Expert.card2.job")}
             </h1>
             <p className="text-[15px] md:text-[16px] text-[#808080] mt-1">
               {t("HomePage.Expert.card3.job")}
@@ -446,20 +445,23 @@ function index() {
               {t("HomePage.QualityServices.take")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-12">
-              {/* Contact Us button */}
-              <button className="bg-white text-green-500 px-4 py-2 rounded-lg font-medium shadow-sm transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-md">
-                <a href="/contacts">
-                  {t("HomePage.QualityServices.contactUs")}
-                </a>
-              </button>
+  {/* Contact Us button */}
+  <a
+    href="/contacts"
+    className="bg-white text-green-500 px-4 py-2 rounded-lg font-medium shadow-sm transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-md text-center"
+  >
+    {t("HomePage.QualityServices.contactUs")}
+  </a>
 
-              {/* Learn More button */}
-              <button className="border border-white text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-white hover:text-green-500 hover:scale-105 hover:shadow-md">
-                <a href="/services">
-                  {t("HomePage.QualityServices.learnMore")}
-                </a>
-              </button>
-            </div>
+  {/* Learn More button */}
+  <a
+    href="/services"
+    className="border border-white text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-white hover:text-green-500 hover:scale-105 hover:shadow-md text-center"
+  >
+    {t("HomePage.QualityServices.learnMore")}
+  </a>
+</div>
+
           </div>
         </div>
       </section>

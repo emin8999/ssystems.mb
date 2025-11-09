@@ -16,11 +16,7 @@ const Header = () => {
                    {t("Career.Header.text")}
                 </p>
                 <div className="flex justify-center md:justify-start">
-                  <button 
-                    className="py-[12px] px-[24px] bg-[#0ED789] rounded-[10px] text-white cursor-pointer font-semibold hover:bg-[#0dc57a] transition-colors text-sm md:text-base whitespace-nowrap inline-block"
-                  >
-                    {t("Career.Header.join")}
-                  </button>
+            
                 </div>
             </div>
         </Container>

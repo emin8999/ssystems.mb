@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Container from "../Container/Container"
-import employee1 from '../../../assets/images/employee1.svg'
-import employee2 from '../../../assets/images/employee2.svg'
-import employee3 from '../../../assets/images/employee3.svg';
+import employee1 from '../../../assets/images/employee1.jpeg'
+import employee2 from '../../../assets/images/employee2.jpeg'
+import employee3 from '../../../assets/images/employee3.jpg';
 import { useTranslation } from "react-i18next";
 
 const OurTeam = () => {
@@ -48,7 +48,7 @@ const OurTeam = () => {
                       <img 
                         src={employee.img} 
                         alt={employee.name} 
-                        className="w-full max-w-[280px] md:max-w-none h-auto object-cover"
+                         className="w-[280px] h-[320px] md:w-[320px] md:h-[360px] object-cover rounded-2xl shadow-md"
                       />
                       <div className="flex flex-col justify-center items-center text-center">
                         <h4 className="text-lg md:text-[20px] font-semibold">

@@ -165,9 +165,7 @@ const BlogPage = () => {
     <p className="text-2xl italic mb-6 font-medium">
       {t("Blog.knowladge")}
     </p>
-    <button className="bg-white text-[#0ED789] px-6 py-3 rounded-full font-semibold shadow-md hover:bg-gray-100 transition-all duration-300">
-      {t("Blog.follow")}
-    </button>
+
   </div>
 </section>
 

@@ -107,29 +107,31 @@ const Footer = () => {
           <div className="sm:col-span-2 lg:col-span-1">
             <h3 className="text-base sm:text-lg font-bold mb-3 sm:mb-4">{t("Footer.contactUs")}</h3>
             <ul className="space-y-3">
-              <li className="flex items-center gap-2 text-gray-300">
-                <Phone className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
-                <span className="text-xs sm:text-sm">
-                  <a href="tel:+37065963444" className="hover:text-white transition-colors">
-                    +370 659 63444
-                  </a>
-                </span>
-              </li>
-              <li className="flex items-center gap-2 text-gray-300">
-                <Mail className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
-                <span className="text-xs sm:text-sm">
-                  <a href="mailto:Sss.santechnika@gmail.com" className="hover:text-white transition-colors break-all">
-                    Sss.santechnika@gmail.com
-                  </a>
-                </span>
-              </li>
-              <li className="flex items-start gap-2 text-gray-300">
-                <Link to="/contact" className="flex items-start gap-2 hover:text-white transition-colors">
-                  <MapPin className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 mt-0.5" />
-                  <span className="text-xs sm:text-sm">Litva Klaipeda Artojo g 7 E</span>
-                </Link>
-              </li>
-            </ul>
+
+{/* Phone */}
+<Link to="/contacts" className="block hover:text-white transition-colors">
+  <li className="flex items-center gap-2 text-gray-300">
+    <Phone className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+    <span className="text-xs sm:text-sm">+370 659 63444</span>
+  </li>
+</Link>
+
+{/* Mail */}
+<Link to="/contacts" className="block hover:text-white transition-colors">
+  <li className="flex items-center gap-2 text-gray-300">
+    <Mail className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
+    <span className="text-xs sm:text-sm break-all">Sss.santechnika@gmail.com</span>
+  </li>
+</Link>
+
+{/* Address */}
+<Link to="/contacts" className="block hover:text-white transition-colors">
+  <li className="flex items-start gap-2 text-gray-300">
+    <MapPin className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 mt-0.5" />
+    <span className="text-xs sm:text-sm">Litva Klaipeda Artojo g 7 E</span>
+  </li>
+</Link>
+</ul>
           </div>
         </div>
 

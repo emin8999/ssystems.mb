@@ -82,9 +82,7 @@ export default function SewerServicesGrid() {
               >
                 {service.description}
               </p>
-              <button className="px-6 py-3 border-2 border-[#0ED789] text-[#0ED789] rounded-[10px] text-lg font-medium hover:bg-emerald-50 transition-colors duration-300 cursor-pointer">
-                {t("Service.SewerServices.learnMore")}
-              </button>
+        
             </div>
           </div>
         ))}

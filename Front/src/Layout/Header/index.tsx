@@ -14,6 +14,8 @@ const navLinks = [
   { to: "/aboutUs", label: t("Header.aboutUs") },
   { to: "/services", label: t("Header.service") },
   { to: "/contacts", label: t("Header.contact") },
+  { to: "/blog", label: t("Header.blog") },
+  { to: "/career", label: t("Header.career") },
 ];
 
   return (
@@ -23,7 +25,7 @@ const navLinks = [
           <img 
             src={ssystems} 
             alt="logo" 
-            className="w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 ml-[-20px] sm:ml-[-30px] md:ml-[-40px]" 
+            className="w-16 h-16 sm:w-18 sm:h-18 md:w-25 md:h-25 ml-[-20px] sm:ml-[-30px] md:ml-[-40px]" 
           />
           <span className="font-semibold text-base sm:text-lg md:text-lg tracking-wide">
             SSYSTEMS MB
