@@ -446,20 +446,20 @@ function index() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-12">
   {/* Contact Us button */}
-  <a
-    href="/contacts"
-    className="bg-white text-green-500 px-4 py-2 rounded-lg font-medium shadow-sm transition-all duration-300 hover:bg-gray-100 hover:scale-105 hover:shadow-md text-center"
+  <Link
+    to="/contacts"
+    className="bg-white text-green-500 px-4 py-2 rounded-lg font-medium shadow-sm transition-all duration-300 hover:bg-gray-100 hover:shadow-md text-center"
   >
     {t("HomePage.QualityServices.contactUs")}
-  </a>
+  </Link>
 
   {/* Learn More button */}
-  <a
-    href="/services"
-    className="border border-white text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-white hover:text-green-500 hover:scale-105 hover:shadow-md text-center"
+  <Link
+    to="/services"
+    className="border border-white text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-white hover:text-green-500  hover:shadow-md text-center"
   >
     {t("HomePage.QualityServices.learnMore")}
-  </a>
+  </Link>
 </div>
 
           </div>

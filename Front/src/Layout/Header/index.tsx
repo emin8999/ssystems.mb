@@ -35,10 +35,10 @@ const Header = () => {
     <header className="w-full bg-[#054E32] text-white shadow-sm">
       <div className="max-w-[1240px] mx-auto flex justify-between items-center h-[70px] px-4 sm:px-6 md:px-8 lg:px-12">
         <Link to="/" className="flex items-center gap-2 sm:gap-3">
-          <img 
-            src={ssystems} 
-            alt="logo" 
-            className="w-16 h-16 sm:w-18 sm:h-18 md:w-25 md:h-25 ml-[-20px] sm:ml-[-30px] md:ml-[-40px]" 
+          <img
+            src={ssystems}
+            alt="logo"
+            className="w-16 h-16 sm:w-18 sm:h-18 md:w-25 md:h-25 ml-[-20px] sm:ml-[-30px] md:ml-[-40px]"
           />
           <span className="font-semibold text-base sm:text-lg md:text-lg tracking-wide">
             SSYSTEMS MB
@@ -48,9 +48,9 @@ const Header = () => {
         <nav className="hidden md:flex gap-6 lg:gap-8 text-sm font-medium">
           <ul className="flex gap-6 lg:gap-7">
             <li>
-              <NavLink 
-                to="/" 
-                className={({ isActive }) => 
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
                   `hover:text-[#0A8B58] transition-colors ${isActive ? "text-[#0A8B58]" : ""}`
                 }
               >
@@ -58,9 +58,9 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/aboutUs" 
-                className={({ isActive }) => 
+              <NavLink
+                to="/aboutUs"
+                className={({ isActive }) =>
                   `hover:text-[#0A8B58] transition-colors ${isActive ? "text-[#0A8B58]" : ""}`
                 }
               >
@@ -68,9 +68,9 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/services" 
-                className={({ isActive }) => 
+              <NavLink
+                to="/services"
+                className={({ isActive }) =>
                   `hover:text-[#0A8B58] transition-colors ${isActive ? "text-[#0A8B58]" : ""}`
                 }
               >
@@ -78,9 +78,9 @@ const Header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink 
-                to="/contacts" 
-                className={({ isActive }) => 
+              <NavLink
+                to="/contacts"
+                className={({ isActive }) =>
                   `hover:text-[#0A8B58] transition-colors ${isActive ? "text-[#0A8B58]" : ""}`
                 }
               >
@@ -91,8 +91,8 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-3 sm:gap-4 md:gap-4 text-sm">
-          <a 
-            href="tel:+37065963444" 
+          <a
+            href="tel:+37065963444"
             className="hidden sm:flex items-center gap-2 hover:text-[#0A8B58] transition-colors"
           >
             <FiPhone className="text-lg sm:text-xl" aria-label="Phone" />
@@ -126,8 +126,7 @@ const Header = () => {
                 to={link.to}
                 onClick={() => setMenuOpen(false)}
                 className={({ isActive }) =>
-                  `block py-2 hover:text-[#0A8B58] transition-colors text-base ${
-                    isActive ? "text-[#0A8B58] font-semibold" : ""
+                  `block py-2 hover:text-[#0A8B58] transition-colors text-base ${isActive ? "text-[#0A8B58] font-semibold" : ""
                   }`
                 }
               >
@@ -143,17 +142,20 @@ const Header = () => {
             </div>
 
             <div className="mb-4">
-              <p className="font-semibold mb-2 text-base">{t("Header.home")}</p>
+              <Link to={"/"}>
+                <p className="font-semibold mb-2 text-base">{t("Header.home")}</p>
+
+              </Link>
               <ul className="space-y-2 text-gray-600">
                 <li>
-                  <a href="#" className="hover:text-[#0A8B58] transition-colors block py-1">
+                  <Link to="/career" className="hover:text-[#0A8B58] transition-colors block py-1">
                     {t("Header.career")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-[#0A8B58] transition-colors block py-1">
+                  <Link to="/blog" className="hover:text-[#0A8B58] transition-colors block py-1">
                     {t("Header.blog")}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -171,8 +173,8 @@ const Header = () => {
             </div>
 
             <div className="mt-6 pt-4 border-t border-gray-200 sm:hidden">
-              <a 
-                href="tel:+37065963444" 
+              <a
+                href="tel:+37065963444"
                 className="flex items-center justify-center gap-2 bg-[#054E32] text-white py-3 rounded-lg hover:bg-[#0A8B58] transition-colors"
               >
                 <FiPhone className="text-lg" />
