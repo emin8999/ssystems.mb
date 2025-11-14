@@ -10,8 +10,8 @@ spring:
   # Database Configuration
   datasource:
     url: jdbc:postgresql://localhost:5432/myservicedb
-    username: myservice
-    password: AEmin_899_@!
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
     hikari:
       maximum-pool-size: 10
@@ -33,10 +33,10 @@ spring:
     open-in-view: false
 
   mail:
-    host: smtp.ethereal.email
+    host: smtp.gmail.com
     port: 587
-    username: yourmail@ethereal.email
-    password: 12345678abcd1234
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
     properties:
       mail:
         smtp:
@@ -59,8 +59,8 @@ spring:
 # Custom Application Properties
 app:
   email:
-    from: yourmail@ethereal.email
-    to: yourmail@ethereal.email
+    from: ${MAIL_USERNAME}
+    to: ${MAIL_USERNAME}
   name: SSYSTEMS MB
   version: 1.0.0
 

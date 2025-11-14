@@ -1,20 +1,20 @@
-2025-11-03 22:39:19 [main] INFO  s.backend.BackendApplication - Starting BackendApplication using Java 17.0.11 with PID 10744 (C:\Users\User\vs\ssystems.mb\backend\build\classes\java\main started by User in C:\Users\User\vs\ssystems.mb)
-2025-11-03 22:39:19 [main] INFO  s.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
-2025-11-03 22:39:20 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-03 22:39:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 5 JPA repository interfaces.
-2025-11-03 22:39:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8181 (http)
-2025-11-03 22:39:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-2025-11-03 22:39:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-03 22:39:22 [main] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
-2025-11-03 22:39:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2349 ms
-2025-11-03 22:39:22 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-03 22:39:22 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-03 22:39:22 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
-2025-11-03 22:39:22 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-03 22:39:22 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-11-03 22:39:24 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 28P01
-2025-11-03 22:39:24 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - FATAL: password authentication failed for user "myservice"
-2025-11-03 22:39:24 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+2025-11-05 15:42:42 [main] INFO  s.backend.BackendApplication - Starting BackendApplication using Java 17.0.11 with PID 2772 (C:\Users\User\vs\ssystems.mb\backend\build\classes\java\main started by User in C:\Users\User\vs\ssystems.mb)
+2025-11-05 15:42:42 [main] INFO  s.backend.BackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-05 15:42:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-05 15:42:44 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 86 ms. Found 5 JPA repository interfaces.
+2025-11-05 15:42:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8181 (http)
+2025-11-05 15:42:44 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-05 15:42:44 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-05 15:42:45 [main] INFO  o.a.c.c.C.[.[localhost].[/api] - Initializing Spring embedded WebApplicationContext
+2025-11-05 15:42:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2040 ms
+2025-11-05 15:42:45 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-05 15:42:45 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-05 15:42:45 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-11-05 15:42:45 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-05 15:42:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-05 15:42:47 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 28P01
+2025-11-05 15:42:47 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - FATAL: password authentication failed for user "myservice"
+2025-11-05 15:42:47 [main] WARN  o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
 org.hibernate.exception.GenericJDBCException: unable to obtain isolated JDBC connection [FATAL: password authentication failed for user "myservice"] [n/a]
 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:63)
 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
@@ -74,8 +74,8 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:485)
 	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
 	... 35 common frames omitted
-2025-11-03 22:39:24 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-11-03 22:39:24 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+2025-11-05 15:42:47 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-05 15:42:47 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (null)']
 	Database driver: undefined/unknown
 	Database version: 12.0
@@ -83,17 +83,17 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-11-03 22:39:25 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-03 22:39:25 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-2025-11-03 22:39:26 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 28P01
-2025-11-03 22:39:26 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - FATAL: password authentication failed for user "myservice"
-2025-11-03 22:39:26 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [FATAL: password authentication failed for user "myservice"] [n/a]
-2025-11-03 22:39:26 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [FATAL: password authentication failed for user "myservice"] [n/a]
-2025-11-03 22:39:26 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
-2025-11-03 22:39:26 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+2025-11-05 15:42:48 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-05 15:42:48 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-11-05 15:42:49 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Error: 0, SQLState: 28P01
+2025-11-05 15:42:49 [main] ERROR o.h.e.jdbc.spi.SqlExceptionHelper - FATAL: password authentication failed for user "myservice"
+2025-11-05 15:42:49 [main] ERROR o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [FATAL: password authentication failed for user "myservice"] [n/a]
+2025-11-05 15:42:49 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [FATAL: password authentication failed for user "myservice"] [n/a]
+2025-11-05 15:42:49 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-11-05 15:42:49 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-11-03 22:39:26 [main] ERROR o.s.boot.SpringApplication - Application run failed
+2025-11-05 15:42:49 [main] ERROR o.s.boot.SpringApplication - Application run failed
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution [FATAL: password authentication failed for user "myservice"] [n/a]
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607)
