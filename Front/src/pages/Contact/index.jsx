@@ -5,7 +5,11 @@ import { FaEnvelope } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import TextField from "@mui/material/TextField";
 import Header from "../../components/Header/index.jsx";
+import { useTranslation } from "react-i18next";
 const Index = () => {
+
+  const { t } = useTranslation();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -47,11 +51,10 @@ const Index = () => {
 
         <div className="flex flex-col w-full lg:w-[50%] pt-5 lg:pt-0">
           <div className="text-3xl sm:text-4xl md:text-5xl font-semibold text-custom-blue pt-[4%]">
-            Send Us Message
+            {t("Contact.send")}
           </div>
           <div className="font-inter font-thin text-base leading-6 tracking-normal text-custom-gray pt-2">
-            Reach out to our support team for any service requests, questions,
-            or estimates — we’ll respond promptly.
+            {t("Contact.reach1")} <br /> {t("Contact.reach2")}
           </div>
 
           <div className="contacts-container pt-5 flex flex-col gap-3">
@@ -81,7 +84,7 @@ const Index = () => {
           >
             <TextField
               name="email"
-              label="Enter Your mail"
+              label={`${t("Contact.enterMail")}`}
               variant="outlined"
               value={formData.email}
               onChange={HandleChange}
@@ -100,7 +103,7 @@ const Index = () => {
             />
             <TextField
               name="name"
-              label="Enter Your name"
+              label={`${t("Contact.enterName")}`}
               variant="outlined"
               value={formData.name}
               onChange={HandleChange}
@@ -119,7 +122,7 @@ const Index = () => {
             />
             <TextField
               name="message"
-              label="Enter Your message"
+              label={`${t("Contact.enterMessage")}`}
               variant="outlined"
               multiline
               rows={4}
@@ -142,7 +145,7 @@ const Index = () => {
               type="submit"
               className="bg-[#0ED789] text-white w-[161px] h-[44px] rounded-[10px] flex items-center justify-center gap-[10px] mt-4 self-start sm:self-center"
             >
-              Send Messages
+              {t("Contact.sendMessage")}
             </button>
           </form>
         </div>

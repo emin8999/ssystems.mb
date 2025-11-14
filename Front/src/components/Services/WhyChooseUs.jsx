@@ -1,30 +1,31 @@
 import React from "react";
 import { Phone, DollarSign, Wrench } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function WhyChooseUs() {
+
+  const { t } = useTranslation();
+
   const features = [
     {
       icon: Phone,
-      title: "24/7 Sevice",
-      description:
-        "Day or night, our team is always ready. We're available around the clock to handle your urgent repairs whenever you need us.",
+      title: `${t("Service.WhyChooseUs.feature1.title")}`,
+      description: `${t("Service.WhyChooseUs.feature1.description")}`,
     },
     {
       icon: DollarSign,
-      title: "Clear On Cost",
-      description:
-        "We believe in honesty and clarity. That's why we give upfront quotes — so you know exactly what you're paying for.",
+      title: `${t("Service.WhyChooseUs.feature2.title")}`,
+      description: `${t("Service.WhyChooseUs.feature2.description")}`,
     },
     {
       icon: Wrench,
-      title: "Excellent Work",
-      description:
-        "Our skilled technicians ensure every job meets the highest standards of workmanship and care.",
+      title: `${t("Service.WhyChooseUs.feature3.title")}`,
+      description: `${t("Service.WhyChooseUs.feature3.description")}`,
     },
   ];
 
   return (
-    <section className="w-full bg-gray-50 py-16">
+    <section className="w-full py-16">
       <div className="max-w-[1240px] mx-auto px-[5%] md:px-[2.8%]">
         <h2
           className="font-bold text-center text-[#101010] mb-16 leading-tight"
@@ -32,7 +33,7 @@ export default function WhyChooseUs() {
             fontSize: "clamp(2rem, 5vw, 4rem)",
           }}
         >
-          Why People Choose Us
+          {t("Service.WhyChooseUs.title")}
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

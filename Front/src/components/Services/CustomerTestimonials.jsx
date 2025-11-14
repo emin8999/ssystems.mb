@@ -1,25 +1,29 @@
 import React from "react";
 import { Star } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 export default function CustomerTestimonials() {
+
+  const { t } = useTranslation();
+
   const testimonials = [
     {
       id: 1,
-      name: "Marvin McKinney",
-      position: "CEO of XXX Company",
+      name: `${t("Service.Customer.testimonial1.name")}`,
+      position: `${t("Service.Customer.testimonial1.position")}`,
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
       rating: 5,
-      text: "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!",
+      text: `${t("Service.Customer.testimonial1.text")}`,
     },
     {
       id: 2,
-      name: "Marvin McKinney",
-      position: "CEO of XXX Company",
+      name: `${t("Service.Customer.testimonial2.name")}`,
+      position: `${t("Service.Customer.testimonial2.position")}`,
       image:
         "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80",
       rating: 5,
-      text: "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!",
+      text: `${t("Service.Customer.testimonial2.text")}`,
     },
   ];
 
@@ -31,14 +35,13 @@ export default function CustomerTestimonials() {
             className="font-bold text-[#101010] mb-4 leading-tight"
             style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}
           >
-            What Our Customers Say
+            {t("Service.Customer.title")}
           </h2>
           <p
             className="text-[#808080] max-w-3xl mx-auto"
             style={{ fontSize: "clamp(1rem, 2.5vw, 1.25rem)" }}
           >
-            Don't just take our word for it – hear what our satisfied customers
-            have to say about their experience with SSYSTEMS MB.
+            {t("Service.Customer.text")}
           </p>
         </div>
 

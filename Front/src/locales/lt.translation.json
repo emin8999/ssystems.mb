@@ -1,0 +1,360 @@
+{
+  "Header": {
+    "home": "Pradžia",
+    "aboutUs": "Apie mus",
+    "service": "Paslaugos",
+    "contact": "Kontaktai",
+    "career": "Karjera",
+    "blog": "Tinklaraštis",
+    "contactUs": "Susisiekite su mumis"
+  },
+
+  "Footer": {
+    "fromWorn": "Nuo susidėvėjusių sąnarių iki visos remonto atnaujinimo – mūsų meistrai siūlo ilgaamžius rezultatus su profesionalia priežiūra.",
+    "myCompany": "Mano įmonė",
+    "about": "Apie",
+    "services": "Paslaugos",
+    "contactUs": "Susisiekite su mumis",
+    "ourResource": "Mūsų šaltiniai",
+    "career": "Karjera",
+    "blog": "Tinklaraštis",
+    "copyright": "© 2025 SSYSTEMS MB. Visos teisės saugomos."
+  },
+
+  "HomePage": {
+    "Solutions": {
+      "title": "Jūsų patikimas remonto sprendimas",
+      "welcome": "Sveiki atvykę į SSYSTEMS MB – jūsų vietą, kur rasite viską, ko reikia remontui. Nuo greito tvarkymo iki pilno atnaujinimo – mūsų patyrę suvirintojai užtikrina stiprumą, kokybę ir tobulumą kiekviename projekte.",
+      "tryingNow": "Išbandykite dabar",
+      "learnMore": "Sužinokite daugiau"
+    },
+    "Extensive": {
+      "title": "Plačios remonto paslaugos",
+      "fromRoutine1": "Nuo rutininės priežiūros iki avarinių remonto darbų, mūsų licencijuoti santechnikai",
+      "fromRoutine2": "yra pasiruošę atlikti bet kokį darbą efektyviai ir preciziškai.",
+      "card1": {
+        "title": "Nuotekų linijos patikra ir remontas",
+        "text": "Mūsų nuotekų linijos patikros ir remonto paslauga naudoja modernią kamerų techniką, kad greitai nustatytų problemas jūsų nuotekų sistemoje. Ar tai būtų šaknų įsiterpimas, įtrūkimai ar užsikimšimai."
+      },
+      "card2": {
+        "title": "Vandens šildytuvų paslaugos",
+        "text": "Sugedęs vandens šildytuvas gali sutrikdyti jūsų kasdienybę ir palikti be karšto vandens tada, kai jo labiausiai reikia. Mūsų vandens šildytuvų paslaugos apima įrengimą, techninę priežiūrą ir remontą."
+      },
+      "card3": {
+        "title": "Tikslios suvirinimo paslaugos",
+        "text": "Mūsų komanda teikia patikimas suvirinimo ir projektavimo paslaugas visų tipų metalo projektams – nuo individualios gamybos ir remonto iki industrinių konstrukcijų."
+      },
+      "card4": {
+        "title": "Jūrinių inžinerinių sprendimų",
+        "text": "Kai jūsų laivas reikalauja skubios priežiūros – jums reikia patikimų jūrinių remonto ekspertų. Mūsų komanda teikia profesionalias jūrų remonto ir techninės priežiūros paslaugas."
+      },
+      "card5": {
+        "title": "Kokybiškos dažymo paslaugos",
+        "text": "Siūlome profesionalias vidaus ir lauko dažymo paslaugas, naudojant aukštos kokybės medžiagas ir precizišką techniką. Ar tai vienas kambarys, ar visa pastato fasadas."
+      },
+      "card6": {
+        "title": "Nuotekų linijos patikra ir remontas",
+        "text": "Mūsų nuotekų linijos patikros ir remonto paslauga naudoja modernią kamerų techniką, kad greitai nustatytų problemas jūsų nuotekų sistemoje. Ar tai būtų šaknų įsiterpimas, įtrūkimai ar užsikimšimai."
+      },
+      "learnMore": "Sužinokite daugiau"
+    },
+    "Beyond": {
+      "title": "Aptarnaujame jūsų miestą ir toliau",
+      "text": "SSYSTEMS MB su didžiuojasi aptarnaudama klientus Lietuvoje ir aplinkinėse teritorijose – teikiame greitus ir patikimus remonto sprendimus namams ir verslui. Nesvarbu, ar esate miesto centre ar pakraštyje – mes esame čia, kad padėtume."
+    },
+    "Book": {
+      "title": "Užsisakykite paslaugą 3 lengvais žingsniais",
+      "easySteps1": "Skiltis „Lengvi žingsniai kaip pradėti“ supaprastina procesą, kaip užsakyti",
+      "easySteps2": "ir pasinaudoti mūsų remonto paslaugomis.",
+      "card1": {
+        "title": "Pasirinkite savo remonto paslaugą",
+        "text": "Galite naršyti mūsų remonto paslaugų asortimentą, pritaikytą įvairioms problemoms namuose ar biure."
+      },
+      "card2": {
+        "title": "Suplanuokite savo paslaugą",
+        "text": "Naudokite mūsų internetinę rezervavimo sistemą arba skambinkite mūsų pagalbos linijai, kad suderintumėte paslaugos laiką pagal savo grafiko."
+      },
+      "card3": {
+        "title": "Darbo užbaigimas ir jūsų pasitenkinimas",
+        "text": "Kai darbas bus atliktas pagal jūsų lūkesčius, mūsų meistrai sutvarkys darbo zoną ir suteiks …"
+      }
+    },
+    "Expert": {
+      "title1": "Ekspertų meistrai",
+      "title2": "jūsų tarnyboje",
+      "eachMember": "Kiekvienas mūsų komandos narys yra aukštos kvalifikacijos, patyręs ir apmokytas spręsti įvairius darbų tipus efektyviai bei veiksmingai. Nesvarbu, ar tai paprastas remontas, ar kompleksinė instaliacija – galite pasitikėti mūsų komanda, kad darbas bus atliktas tinkamai iš karto.",
+      "card1": {
+        "name": "Zain Vetrovs",
+        "job": "Suvirinimo technikas"
+      },
+      "card2": {
+        "name": "Zain Vetrovs",
+        "job": "Dažymo technikas"
+      },
+      "card3": {
+        "name": "Zain Vetrovs",
+        "job": "Elektros technikas"
+      }
+    },
+    "Customers": {
+      "title": "Ką sako mūsų klientai",
+      "text": "Neikite vien mūsų žodžiais – sužinokite, ką mūsų patenkinti klientai sako apie savo patirtį su SSYSTEMS MB.",
+      "card1": {
+        "name": "Marvin McKinney",
+        "job": "XXX įmonės generalinis direktorius",
+        "comment": "Buvau sužavėtas SSYSTEMS MB komandos profesionalumu ir efektyvumu. Jie atvyko laiku, greitai diagnozavo problemą ir išsprendė ją su minimaliais trikdžiais. Labai rekomenduoju!"
+      },
+      "card2": {
+        "name": "Marvin McKinney",
+        "job": "XXX įmonės generalinis direktorius",
+        "comment": "Buvau sužavėtas SSYSTEMS MB komandos profesionalumu ir efektyvumu. Jie atvyko laiku, greitai diagnozavo problemą ir išsprendė ją su minimaliais trikdžiais. Labai rekomenduoju!"
+      }
+    },
+    "QualityServices": {
+      "title1": "Pasiruošę patirti",
+      "title2": "kokybiškas paslaugas",
+      "take": "Ženkite pirmą žingsnį link savo problemų sprendimo – susisiekite su mumis šiandien. Mūsų kvalifikuota komanda pasiruošusi padėti jums visuose remonto reikaluose.",
+      "contactUs": "Susisiekite su mumis",
+      "learnMore": "Sužinokite daugiau"
+    }
+  },
+
+  "AboutUs": {
+    "Header": {
+      "aboutUs": "Apie mus",
+      "text": "SSYSTEMS MB su didžiuojasi aptarnaudama klientus Lietuvoje ir aplinkinėse teritorijose – teikiame greitus ir patikimus remonto sprendimus namams ir verslui. Nesvarbu, ar esate miesto centre ar pakraštyje – mes esame čia, kad padėtume."
+    },
+    "Experience": {
+      "title": "Patyrę ir klientų patikimi",
+      "weAre": "Mes esame ne tik namų remonto įmonė – mes esame jūsų patikimas partneris, kad jūsų namai būtų saugūs, patogūs ir veiktų sklandžiai. Mūsų patyrusių technikų komanda teikia patikimas remonto, priežiūros ir įrengimo paslaugas santechnikos, elektros, dažymo, staliaus ir kitose srityse.",
+      "weBelieve": "Tvirtai tikime, kad kokybiškas aptarnavimas prasideda nuo pasitikėjimo, aiškaus bendravimo ir profesionalaus meistriškumo. Nesvarbu, ar tai maža pataisa, ar pilna renovacija – kiekvieną projektą vykdome su rūpesčiu, efektyvumu ir dėmesiu detalėms.",
+      "ourMission": "Mūsų misija yra paprasta: padaryti namų remonto procesą lengvą, prieinamą ir be streso – kad galėtumėte susitelkti į tai, kas svarbiausia.",
+      "years": "Metai patirties",
+      "happy": "Patys patenkinti klientai",
+      "qualified": "Kvalifikuoti darbuotojai"
+    },
+    "OurTeam": {
+      "title": "Susipažinkite su mūsų puikia komanda",
+      "eachMember": "Kiekvienas mūsų komandos narys yra aukštos kvalifikacijos, patyręs ir apmokytas spręsti įvairius montavimo ir remonto darbus efektyviai bei veiksmingai. Nesvarbu, ar tai paprasta taisymo užduotis, ar sudėtinga instaliacija – galite pasitikėti mūsų komanda, kad ji užbaigs darbą tinkamai iš karto.",
+      "employee1": {
+        "name": "Zain Vetrovs",
+        "position": "Suvirinimo technikas"
+      },
+      "employee2": {
+        "name": "Zain Vetrovs",
+        "position": "Dažymo technikas"
+      },
+      "employee3": {
+        "name": "Zain Vetrovs",
+        "position": "Elektros technikas"
+      },
+      "employee4": {
+        "name": "Zain Vetrovs",
+        "position": "Vyresnysis technikas"
+      },
+      "employee5": {
+        "name": "Zain Vetrovs",
+        "position": "Įrangos montavimo ekspertas"
+      },
+      "employee6": {
+        "name": "Zain Vetrovs",
+        "position": "Kokybės kontrolierius"
+      },
+      "showLess": "Rodyti mažiau",
+      "viewMore": "Žiūrėti daugiau"
+    },
+    "CustomerSay": {
+      "title": "Ką sako mūsų klientai",
+      "text": "Neikite vien mūsų žodžiais – sužinokite, ką mūsų patenkinti klientai sako apie savo patirtį su SSYSTEMS MB.",
+      "customerReview1": {
+        "name": "Marvin McKinney",
+        "position": "XXX įmonės generalinis direktorius",
+        "comment": "Buvau sužavėtas SSYSTEMS MB komandos profesionalumu ir efektyvumu. Jie atvyko laiku, greitai diagnozavo problemą ir išsprendė ją su minimaliais trikdžiais. Labai rekomenduoju!"
+      },
+      "customerReview2": {
+        "name": "Sarah Johnson",
+        "position": "Namu savininkė",
+        "comment": "Buvau sužavėta SSYSTEMS MB komandos profesionalumu ir efektyvumu. Jie atvyko laiku, greitai diagnozavo problemą ir išsprendė ją su minimaliais trikdžiais. Labai rekomenduoju!"
+      }
+    },
+    "OurServices": {
+      "title": "Pasiruošę patirti kokybiškas paslaugas",
+      "take": "Ženkite pirmą žingsnį link savo problemų sprendimo – susisiekite su mumis šiandien. Mūsų kvalifikuota komanda pasiruošusi padėti jums visuose remonto reikaluose.",
+      "contactUs": "Susisiekite su mumis",
+      "learnMore":"Sužinokite daugiau"
+    }
+  },
+
+  "Service": {
+    "Hero": {
+      "title1": "Mes teikiame geriausią",
+      "title2": "Paslaugą jums",
+      "text": "SSYSTEMS MB su didžiuojasi aptarnaudama klientus Lietuvoje ir aplinkinėse teritorijose – teikiame greitus ir patikimus remonto sprendimus namams ir verslui. Nesvarbu, ar esate miesto centre ar pakraštyje – mes esame čia, kad padėtume."
+    },
+    "WhyChooseUs": {
+      "title": "Kodėl žmonės renkasi mus",
+      "feature1": {
+        "title": "24/7 paslauga",
+        "description": "Dieną ar naktį – mūsų komanda visuomet pasiruošusi. Esame prieinami visą parą, kadangi jūsų skubūs remonto darbai nelauks."
+      },
+      "feature2": {
+        "title": "Aiškios kainos",
+        "description": "Mes tikime sąžiningumu ir skaidrumu. Todėl pateikiame aiškų darbo kainos įkainį – kad žinotumėte, už ką mokate."
+      },
+      "feature3": {
+        "title": "Puikus darbas",
+        "description": "Mūsų patyrę technikai užtikrina, kad kiekvienas darbas atitiktų aukščiausius kokybės ir priežiūros standartus."
+      }
+    },
+    "SewerServices": {
+      "service1": {
+        "title": "Nuotekų linijos patikra ir remontas",
+        "description": "Mūsų nuotekų linijos patikros ir remonto paslauga naudoja modernią kamerų techniką, kad greitai nustatytų problemas jūsų nuotekų sistemoje. Ar tai būtų šaknų įsiterpimas, įtrūkimai ar užsikimšimai."
+      },
+      "service2": {
+        "title": "Vandens šildytuvų paslaugos",
+        "description": "Profesionalus vandens šildytuvų įrengimas, priežiūra ir remontas. Užtikriname, kad jūsų sistema veiktų efektyviai ir patikimai – užtikrindami nuolatinį karšto vandens tiekimą."
+      },
+      "service3": {
+        "title": "Vandens šildytuvų paslaugos",
+        "description": "Profesionalus vandens šildytuvų įrengimas, priežiūra ir remontas. Užtikriname, kad jūsų sistema veiktų efektyviai ir patikimai – užtikrindami nuolatinį karšto vandens tiekimą."
+      },
+      "service4": {
+        "title": "Nuotekų linijos patikra ir remontas",
+        "description": "Mūsų nuotekų linijos patikros ir remonto paslauga naudoja modernią kamerų techniką, kad greitai nustatytų problemas jūsų nuotekų sistemoje. Ar tai būtų šaknų įsiterpimas, įtrūkimai ar užsikimšimai."
+      },
+      "service5": {
+        "title": "Vandens šildytuvų paslaugos",
+        "description": "Profesionalus vandens šildytuvų įrengimas, priežiūra ir remontas. Užtikriname, kad jūsų sistema veiktų efektyviai ir patikimai – užtikrindami nuolatinį karšto vandens tiekimą."
+      },
+      "learnMore": "Sužinokite daugiau"
+    },
+    "Customer": {
+      "title": "Ką sako mūsų klientai",
+      "text": "Neikite vien mūsų žodžiais – sužinokite, ką mūsų patenkinti klientai sako apie savo patirtį su SSYSTEMS MB.",
+      "testimonial1": {
+        "name": "Marvin McKinney",
+        "position": "XXX įmonės generalinis direktorius",
+        "text": "Buvau sužavėtas SSYSTEMS MB komandos profesionalumu ir efektyvumu. Jie atvyko laiku, greitai diagnozavo problemą ir išsprendė ją su minimaliais trikdžiais. Labai rekomenduoju!"
+      },
+      "testimonial2": {
+        "name": "Marvin McKinney",
+        "position": "XXX įmonės generalinis direktorius",
+        "text": "Buvau sužavėtas SSYSTEMS MB komandos profesionalumu ir efektyvumu. Jie atvyko laiku, greitai diagnozavo problemą ir išsprendė ją su minimaliais trikdžiais. Labai rekomenduoju!"
+      }
+    }
+  },
+
+  "Contact": {
+    "Header": {
+      "title": "Susisiekite su mumis",
+      "text": "SSYSTEMS MB aptarnauja klientus Lietuvoje ir netoliese esančiose teritorijose – teikiame greitus ir patikimus remonto sprendimus namams ir verslui. Nesvarbu, ar esate miesto centre ar pakraštyje – mes esame čia, kad padėtume."
+    },
+    "send": "Siųsti žinutę",
+    "reach1": "Kreipkitės į mūsų palaikymo komandą dėl paslaugų užklausų, klausimų ar",
+    "reach2": "kainų pasiūlymų — mes atsakysime operatyviai.",
+    "enterMail": "Įveskite savo el. paštą",
+    "enterName": "Įveskite savo vardą",
+    "enterMessage": "Įveskite savo žinutę",
+    "sendMessage": "Siųsti žinutę"
+  },
+
+  "Career": {
+    "Header": {
+      "build": "Kurti ateitį kartu su mumis",
+      "text": "Ieškome kvalifikuotų, aistringų ir atsakingų profesionalų, pasiruošusių kurti, remontuoti ir inovuoti kartu. Mūsų įmonėje kiekvienas projektas turi reikšmę – nuo suvirinimo ir laivų remonto iki namų renovacijos ir industrinio statybos.",
+      "join": "Prisijunkite prie mūsų komandos"
+    },
+    "AboutWork": {
+      "title": "Kodėl verta dirbti pas mus?",
+      "text": "Tikime, kad puikūs rezultatai kyla iš komandinio darbo, pagarbos ir atsidavimo. Mūsų darbuotojai yra pagrindas viskam, ką statome. Nesvarbu, ar esate suvirintojas, inžinierius ar statybų ekspertas – jums suteiksime augimo, mokymosi ir įsitraukimo į reikšmingus projektus galimybes.",
+      "benefit1": "Stabili ir ilgalaikė darbo vieta",
+      "benefit2": "Saugia ir palaikoma darbo aplinka",
+      "benefit3": "Karjeros augimo galimybės",
+      "benefit4": "Mokymo ir įgūdžių tobulinimo programos",
+      "benefit5": "Konkurencingas atlyginimas ir premijos"
+    },
+    "OpenPositions": {
+      "current": "Dabartiniai laisvi darbo pasiūlymai",
+      "job1": {
+        "title": "Suvirintojas",
+        "type": "Pilnas etatas / vietoje",
+        "description": "Reikalinga patirtis MIG, TIG ir/lub rankiniu elektros lankiniu suvirinimu."
+      },
+      "job2": {
+        "title": "Statybos darbuotojas",
+        "type": "Pilnas etatas / projekto pagrindu",
+        "description": "Būtinos žinios apie modernius įrankius ir saugos procedūras."
+      },
+      "job3": {
+        "title": "Laivų remonto technikas",
+        "type": "Pilnas etatas",
+        "description": "Darbas uosto zonoje; pageidautina techninis išsilavinimas."
+      },
+      "apply": "Pateikite paraišką"
+    },
+    "ApplicationForm": {
+      "title": "Pateikite savo paraišką",
+      "text": "Siųskite mums savo duomenis ir mes su jumis susisieksime. Visada džiaugiamės susipažinti su profesionalais, kurie moka mylėti tai, ką daro.",
+      "applicationSubmitted": "✅ Paraiška sėkmingai pateikta! Netrukus susisieksime.",
+      "send": "Siųsti paraišką",
+      "name": "Pilnas vardas *",
+      "phone": "Telefono numeris *",
+      "email": "El. pašto adresas *",
+      "position": "Pareigos, į kurias kandidatuojate *",
+      "select": "Pasirinkite pareigas",
+      "upload": "Įkelti CV (nebūtina)",
+      "selectedFile": "Pasirinktas failas:",
+      "message": "Žinutė / Motyvacinis laiškas",
+      "tellUs": "Paprašykite papasakoti apie save ir kodėl jus domina ši pozicija..."
+    },
+    "Closing": {
+      "title": "Kartu mes statome ne tik struktūras – mes statome pasitikėjimą.",
+      "join": "Prisijunkite prie mūsų komandos ir kurkime ilgalaikį poveikį per kokybišką meistriškumą ir nepalaužiamą patikimumą."
+    }
+  },
+
+  "Blog": {
+    "post1": {
+      "title": "Kaip suvirinimas formuoja moderniąją industriją",
+      "description": "Sužinokite, kaip tikslus suvirinimas lemia šiuolaikinės infrastruktūros tvarumą ir saugumą.",
+      "date": "03 lapkričio 2025"
+    },
+    "post2": {
+      "title": "Mūsų naujausio laivų remonto projekto vidus",
+      "description": "Išsamus žvilgsnis į tai, kaip mūsų komanda atnaujino 40 metrų krovininį laivą naudodama pažangiausias metodikas.",
+      "date": "20 spalio 2025"
+    },
+    "post3": {
+      "title": "Saugumas pirmiausia: kaip mes užtikriname kiekvienos darbo vietos saugumą",
+      "description": "Mūsų įsipareigojimas laikytis aukščiausių saugos standartų visuose veiklos etapuose.",
+      "date": "08 rugsėjo 2025"
+    },
+    "post4": {
+      "title": "Statybos revoliucija per technologijas",
+      "description": "Sužinokite, kaip automatizavimas ir išmaniosios priemonės keičia statybų industriją.",
+      "date": "28 rugpjūčio 2025"
+    },
+    "post5": {
+      "title": "Susipažinkite su komanda, kuri už mūsų sėkmės",
+      "description": "Pažinkite kvalifikuotus inžinierius ir technikus, kurie stumia mūsų geriausius projektus į priekį.",
+      "date": "12 rugpjūčio 2025"
+    },
+    "Hero": {
+      "title": "Statome ateitį – po vieną suvirinį vienu metu.",
+      "text": "Naujienos, patarimai ir realios istorijos iš lauko – suvirinimas, statybos, inovacijos ir komandinė dar­bas, formuojantis rytojaus infrastruktūrą."
+    },
+    "readMore": "Skaitykite daugiau →",
+    "search": "Paieška",
+    "categories": "Kategorijos",
+    "welding": "Suvirinimas",
+    "construction": "Statyba",
+    "repair": "Remontas",
+    "safety": "Sauga",
+    "projects": "Projektai",
+    "recent": "Naujausi įrašai",
+    "tags": "Žymos",
+    "knowladge": "„Žinios dalinamos – jėga dauginama.“",
+    "follow": "Sekite mus daugiau naujienų"
+  }
+}

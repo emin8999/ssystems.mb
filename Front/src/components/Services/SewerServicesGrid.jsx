@@ -1,58 +1,49 @@
+import { useTranslation } from "react-i18next";
+import sewerLine from "../../assets/images/sewerLine.png";
+import waterHeater from "../../assets/images/waterHeater.png";
+import marine from "../../assets/images/marine.png"
+import precision from "../../assets/images/precision.png"
+import painting from "../../assets/images/painting.png"
+
 export default function SewerServicesGrid() {
+
+  const { t } = useTranslation();
+
   const services = [
     {
       id: 1,
-      title: "Sewer Line Inspection and Repair",
-      description:
-        "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages.",
-      image:
-        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
+      title: `${t("Service.SewerServices.service1.title")}`,
+      description: `${t("Service.SewerServices.service1.description")}`,
+      image: sewerLine,
       imagePosition: "left",
     },
     {
       id: 2,
-      title: "Water Heater Services",
-      description:
-        "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply.",
-      image:
-        "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+      title: `${t("Service.SewerServices.service2.title")}`,
+      description: `${t("Service.SewerServices.service2.description")}`,
+      image: waterHeater,
       imagePosition: "right",
     },
     {
       id: 3,
-      title: "Water Heater Services",
-      description:
-        "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply.",
-      image:
-        "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+      title: `${t("Service.SewerServices.service3.title")}`,
+      description: `${t("Service.SewerServices.service3.description")}`,
+      image: marine,
       imagePosition: "left",
     },
     {
       id: 4,
-      title: "Sewer Line Inspection and Repair",
-      description:
-        "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages.",
-      image:
-        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
+      title: `${t("Service.SewerServices.service4.title")}`,
+      description:`${t("Service.SewerServices.service4.description")}`,
+      image: precision,
       imagePosition: "right",
     },
     {
       id: 5,
-      title: "Water Heater Services",
-      description:
-        "Professional water heater installation, maintenance and repair services. We ensure your system operates efficiently and reliably for consistent hot water supply.",
-      image:
-        "https://images.unsplash.com/photo-1581094271901-8022df4466f9?w=800&q=80",
+      title: `${t("Service.SewerServices.service5.title")}`,
+      description:`${t("Service.SewerServices.service5.description")}`,
+      image: painting,
       imagePosition: "left",
-    },
-    {
-      id: 6,
-      title: "Sewer Line Inspection and Repair",
-      description:
-        "Our sewer line inspection and repair service utilize state-of-the-art camera inspection technology to identify issues within your sewer line quickly. Whether it's tree root intrusion, cracks, or blockages.",
-      image:
-        "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&q=80",
-      imagePosition: "right",
     },
   ];
 
@@ -91,9 +82,7 @@ export default function SewerServicesGrid() {
               >
                 {service.description}
               </p>
-              <button className="px-6 py-3 border-2 border-[#0ED789] text-[#0ED789] rounded-[10px] text-lg font-medium hover:bg-emerald-50 transition-colors duration-300 cursor-pointer">
-                Learn More
-              </button>
+        
             </div>
           </div>
         ))}

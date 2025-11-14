@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import Container from "../Container/Container"
-import experience from '../../../assets/images/experience.svg'
+import experiencedCompany from "../../../assets/images/experiencedCompany1.png";
+import { useTranslation } from "react-i18next";
 
 const AnimatedCounter = ({ end, duration = 2000, suffix = "+" }) => {
   const [count, setCount] = useState(0);
@@ -49,33 +50,36 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "+" }) => {
 };
 
 const Experience = () => {
+
+  const { t } = useTranslation();
+
   return (
     <div className="mt-16 md:mt-[100px]">
         <Container>
             <div className="flex flex-col xl:flex-row gap-8 xl:gap-[27px] font-inter items-center xl:items-start">
                 <div className="w-full xl:w-auto flex justify-center xl:block">
                     <img 
-                        src={experience} 
+                        src={experiencedCompany} 
                         alt="experience" 
-                        className="max-w-[280px] sm:max-w-[350px] md:max-w-[400px] xl:max-w-none xl:w-auto"
+                        className="max-w-[280px] sm:max-w-[350px] md:max-w-[400px] xl:max-w-none xl:w-auto rounded-[20px] lg:max-w-[549px] lg:h-[800px]"
                     />
                 </div>
                 
 
                 <div className="flex flex-col gap-8 xl:gap-[50px] w-full xl:w-auto">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl xl:text-[64px] text-[#1D2B4F] text-center xl:text-left xl:leading-none">
-                        Experienced and Trusted by people
+                        {t("AboutUs.Experience.title")}
                     </h2>
                     
                     <div className="flex flex-col gap-6 xl:gap-[36px] text-[#808080] text-sm md:text-base xl:text-[16px]">
                         <p className="text-center xl:text-left xl:leading-normal">
-                            We're more than just a home repair company — we're your reliable partner for keeping your home safe, comfortable, and running smoothly. Our team of experienced technicians provides trusted repair, maintenance, and installation services for plumbing, electrical, painting, carpentry, and more.
+                            {t("AboutUs.Experience.weAre")}
                         </p>
                         <p className="text-center xl:text-left xl:leading-normal">
-                            We believe quality service starts with trust, clear communication, and skilled craftsmanship. Whether it's a small fix or a full renovation, we approach every project with care, efficiency, and attention to detail.
+                            {t("AboutUs.Experience.weBelieve")}
                         </p>
                         <p className="text-center xl:text-left xl:leading-normal">
-                            Our mission is simple: to make home repair easy, affordable, and stress-free — so you can focus on what matters most.
+                            {t("AboutUs.Experience.ourMission")}
                         </p>
                     </div>
                     
@@ -86,7 +90,7 @@ const Experience = () => {
                                 <AnimatedCounter end={10} duration={1500} />
                             </p>
                             <h3 className="text-[#1D2B4F] text-sm md:text-base xl:text-[18px] mt-2 xl:mt-0">
-                                Years Experiences
+                                {t("AboutUs.Experience.years")}
                             </h3>
                         </div>
                         
@@ -95,7 +99,7 @@ const Experience = () => {
                                 <AnimatedCounter end={20} duration={2000} />
                             </p>
                             <h3 className="text-[#1D2B4F] text-sm md:text-base xl:text-[18px] mt-2 xl:mt-0">
-                                Happy Customers
+                                {t("AboutUs.Experience.happy")}
                             </h3>
                         </div>
                         
@@ -104,7 +108,7 @@ const Experience = () => {
                                 <AnimatedCounter end={250} duration={1800} suffix="" />
                             </p>
                             <h3 className="text-[#1D2B4F] text-sm md:text-base xl:text-[18px] mt-2 xl:mt-0">
-                                Qualified workers
+                                {t("AboutUs.Experience.qualified")}
                             </h3>
                         </div>
                         
@@ -116,4 +120,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Experience;

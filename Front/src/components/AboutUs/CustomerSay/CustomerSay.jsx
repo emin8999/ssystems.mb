@@ -1,22 +1,26 @@
 import Container from "../Container/Container"
 import customer from '../../../assets/images/customer.svg'
-import star from '../../../assets/icons/star.svg'
+import star from '../../../assets/icons/star.svg';
+import { useTranslation } from "react-i18next";
 
 const CustomerSay = () => {
+
+  const { t } = useTranslation();
+
   const customerReviews = [
     {
       id: 1,
-      name: "Marvin McKinney",
-      position: "CEO of XXX Company",
+      name: `${t("AboutUs.CustomerSay.customerReview1.name")}`,
+      position: `${t("AboutUs.CustomerSay.customerReview1.position")}`,
       rating: 5,
-      comment: "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!"
+      comment: `${t("AboutUs.CustomerSay.customerReview1.comment")}`
     },
     {
       id: 2,
-      name: "Sarah Johnson",
-      position: "Homeowner",
+      name: `${t("AboutUs.CustomerSay.customerReview2.name")}`,
+      position: `${t("AboutUs.CustomerSay.customerReview2.position")}`,
       rating: 3,
-      comment: "I was impressed by the professionalism and efficiency of the SSYSTEMS MB team. They arrived on time, diagnosed the issue quickly, and resolved it with minimal disruption. Highly recommended!"
+      comment: `${t("AboutUs.CustomerSay.customerReview2.comment")}`
     }
   ];
 
@@ -41,10 +45,10 @@ const CustomerSay = () => {
             <div className="flex flex-col justify-center items-center gap-8 md:gap-[50px] font-inter">
                 <div className="flex flex-col gap-4 md:gap-[20px] items-center justify-center text-center">
                     <h3 className="text-3xl sm:text-4xl md:text-5xl lg:text-[64px] font-semibold px-4">
-                        What Our Customers Say
+                        {t("AboutUs.CustomerSay.title")}
                     </h3>
                     <p className="text-[#808080] max-w-full md:max-w-[513px] text-sm md:text-base px-4">
-                        Don't just take our word for it – hear what our satisfied customers have to say about their experience with SSYSTEMS MB.
+                        {t("AboutUs.CustomerSay.text")}
                     </p>
                 </div>
                 
@@ -84,4 +88,4 @@ const CustomerSay = () => {
   )
 }
 
-export default CustomerSay
+export default CustomerSay;
